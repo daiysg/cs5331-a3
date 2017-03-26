@@ -36,7 +36,7 @@ def log(msg):
 def phase1():
     log_phase(1, "Crawling sites from urls.py for injection points.")
 
-    log("Launching firefox for selenium.")
+    log("Launching Chrome for selenium.")
     chromedriver = "/usr/chromedriver"
     os.environ["webdriver.chrome.driver"] = chromedriver
     browser = webdriver.Chrome(chromedriver)
@@ -219,6 +219,8 @@ def _phase3_run(json_data, o_json_path):
         # if url in _exclude_URLS:
             # continue
         forms = json_data[url]
+        print "Form Info: "+form
+
         rand_forms = []
         if (len(forms) > _form_num_limit):
             print "  " + str(len(forms)) + " forms:" + url
@@ -233,6 +235,7 @@ def _phase3_run(json_data, o_json_path):
             rand_post_pairs = {}
             for post_param_name in post_param_names:
                 values = form["params"]["POST"][post_param_name]["value"]
+                print "Values for forms: "+values
                 if len(values) > _values_num_limit:
                     print "  length " + str(len(values)) + " : " + post_param_name
                     rand_values = random.sample(values, _values_num_limit)
@@ -252,6 +255,11 @@ def _phase3_run(json_data, o_json_path):
                 else:
                     rand_get_pairs[get_param_name] = values
             get_combinations = [dict(zip(get_param_names, prod)) for prod in it.product(*(rand_get_pairs[param_name] for param_name in get_param_names))]
+
+            print "Get Combination: "+get_combinations
+            print "Post Combination: "+post_combinations
+            print "Get Comb: "+get_comb
+            print "Post Comb"+post_comb
 
             for get_comb in get_combinations:
                 for post_comb in post_combinations:
