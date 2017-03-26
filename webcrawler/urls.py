@@ -18,35 +18,35 @@ crawl_rules_deny=("\#",
 paramtype_test_input = {"password":["mypassword"]}
 paramname_test_input = {"currency_code":["USD"]}
 
-URLs["https://app1.com/admin/index.php?page=login"] = {"name":"app1_admin",
-    "login_page":"https://app1.com/admin/index.php?page=login",
-    "need_selenium" : False,
-    "formnumber":1,
-    "formdata":{'adminname': 'admin', 'password': 'admin'},}
-
-URLs["https://app1.com/admin/index.php?page=login"] = {"name":"app1_adamd",
-    "login_page":"https://app1.com/admin/index.php?page=login",
-    "need_selenium" : False,
-    "formnumber":1,
-    "formdata":{'username': 'adamd', 'password': 'adamd'},}
-
-URLs["https://app1.com/users/login.php"] = {"name":"app1_scanner1",
-    "login_page":"https://app1.com/users/login.php",
-    "need_selenium" : False,
-    "formnumber":2,
-    "formdata":{'username': 'scanner1', 'password': 'scanner1'},}
-    
-URLs["https://app1.com/users/login.php"] = {"name":"app1_scanner2",
-    "login_page":"https://app1.com/users/login.php",
-    "need_selenium" : False,
-    "formnumber":2,
-    "formdata":{'username': 'scanner2', 'password': 'scanner2'},}
-    
-URLs["https://app1.com/users/login.php"] = {"name":"app1_bryce",
-    "login_page":"https://app1.com/users/login.php",
-    "need_selenium" : False,
-    "formnumber":2,
-    "formdata":{'username': 'bryce', 'password': 'bryce'},}
+# URLs["https://app1.com/admin/index.php?page=login"] = {"name":"app1_admin",
+#     "login_page":"https://app1.com/admin/index.php?page=login",
+#     "need_selenium" : False,
+#     "formnumber":1,
+#     "formdata":{'adminname': 'admin', 'password': 'admin'},}
+#
+# URLs["https://app1.com/admin/index.php?page=login"] = {"name":"app1_adamd",
+#     "login_page":"https://app1.com/admin/index.php?page=login",
+#     "need_selenium" : False,
+#     "formnumber":1,
+#     "formdata":{'username': 'adamd', 'password': 'adamd'},}
+#
+# URLs["https://app1.com/users/login.php"] = {"name":"app1_scanner1",
+#     "login_page":"https://app1.com/users/login.php",
+#     "need_selenium" : False,
+#     "formnumber":2,
+#     "formdata":{'username': 'scanner1', 'password': 'scanner1'},}
+#
+# URLs["https://app1.com/users/login.php"] = {"name":"app1_scanner2",
+#     "login_page":"https://app1.com/users/login.php",
+#     "need_selenium" : False,
+#     "formnumber":2,
+#     "formdata":{'username': 'scanner2', 'password': 'scanner2'},}
+#
+# URLs["https://app1.com/users/login.php"] = {"name":"app1_bryce",
+#     "login_page":"https://app1.com/users/login.php",
+#     "need_selenium" : False,
+#     "formnumber":2,
+#     "formdata":{'username': 'bryce', 'password': 'bryce'},}
 
 # URLs["https://app2.com/files/news.php"] = {"name":"app2_admin",
 #     "login_page":"https://app2.com/files/news.php",
@@ -66,35 +66,35 @@ URLs["https://app1.com/users/login.php"] = {"name":"app1_bryce",
 #     "formnumber":1,
 #     "formdata":{'username': 'test@test.com', 'password': 'testtest'},}
 #
-# URLs["https://app4.com/catalog/admin/"] = {"name":"app4_admin",
-#     "login_page":"https://app4.com/catalog/admin/",
-#     "need_selenium" : False,
-#     "formnumber":1,
-#     "formdata":{'username': 'admin', 'password': 'admin'},}
-#
-# URLs["https://app4.com/catalog"] = {"name":"app4_test",
-#     "login_page":"https://app4.com/catalog/",
-#     "need_selenium" : True,
-#     "formnumber":1,
-#     "formdata":{'username': 'test@test.com', 'password': 'testtest'},}
-#
-# URLs["https://app5.com/"] = {"name":"app5_admin",
-#     "login_page":"https://app5.com/",
-#     "need_selenium" : False,
-#     "formnumber":1,
-#     "formdata":{'username': 'admin', 'password': 'adminadmin'},}
-#
-# URLs["https://app6.com/admin.php"] = {"name":"app6_admin",
-#     "login_page":"https://app6.com/admin.php",
-#     "need_selenium" : False,
-#     "formnumber":1,
-#     "formdata":{'username': 'admin', 'password': 'adminadmin'},}
-#
-# URLs["https://app6.com/"] = {"name":"app6_user",
-#     "login_page":"https://app6.com",
-#     "need_selenium" : False,
-#     "formnumber":1,
-#     "formdata":{'username': 'admin', 'password': 'adminadmin'},}
+URLs["https://app4.com/catalog/admin/"] = {"name":"app4_admin",
+    "login_page":"https://app4.com/catalog/admin/",
+    "need_selenium" : False,
+    "formnumber":1,
+    "formdata":{'username': 'admin', 'password': 'admin'},}
+
+URLs["https://app4.com/catalog"] = {"name":"app4_test",
+    "login_page":"https://app4.com/catalog/",
+    "need_selenium" : True,
+    "formnumber":1,
+    "formdata":{'username': 'test@test.com', 'password': 'testtest'},}
+
+URLs["https://app5.com/"] = {"name":"app5_admin",
+    "login_page":"https://app5.com/",
+    "need_selenium" : False,
+    "formnumber":1,
+    "formdata":{'username': 'admin', 'password': 'adminadmin'},}
+
+URLs["https://app6.com/admin.php"] = {"name":"app6_admin",
+    "login_page":"https://app6.com/admin.php",
+    "need_selenium" : False,
+    "formnumber":1,
+    "formdata":{'username': 'admin', 'password': 'adminadmin'},}
+
+URLs["https://app6.com/"] = {"name":"app6_user",
+    "login_page":"https://app6.com",
+    "need_selenium" : False,
+    "formnumber":1,
+    "formdata":{'username': 'admin', 'password': 'adminadmin'},}
 #
 # URLs["https://app7.com/"] = {"name":"app7_test",
 #     "login_page":"https://app7.com/index.php?page=login",
