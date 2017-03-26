@@ -37,7 +37,9 @@ def phase1():
     log_phase(1, "Crawling sites from urls.py for injection points.")
 
     log("Launching firefox for selenium.")
-    browser = webdriver.Chrome("~/Download/chromedriver")
+    chromedriver = "~/Download/chromedriver"
+    os.environ["webdriver.chrome.driver"] = chromedriver
+    browser = webdriver.Chrome(chromedriver)
     time.sleep(3) # wait for firefox to open()
 
     settings = get_project_settings()
