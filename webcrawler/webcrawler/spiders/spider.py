@@ -45,6 +45,7 @@ class StackSpider(CrawlSpider):
 
         self.login_cookie = None
         urldata = kwargs.get("urldata")[1]
+        self.logger.info("URLDATA:: " + urldata);
         self.name = urldata.pop("name")
 
         if urldata:

@@ -62,6 +62,8 @@ def phase1():
         from urls import crawl_rules_allow, crawl_rules_deny
 
         urlsItems = copy.deepcopy(URLs).items()
+
+        log("Crawling URL items Size:'{0}'".format(urlsItems.__len__()))
         for urldata in urlsItems:
             # set site specific rules 
             data = urldata[1]
