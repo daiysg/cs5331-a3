@@ -78,11 +78,11 @@ URLs["https://app4.com/catalog"] = {"name":"app4_test",
     "formnumber":1,
     "formdata":{'username': 'test@test.com', 'password': 'testtest'},}
 
-URLs["https://app5.com/"] = {"name":"app5_admin",
-    "login_page":"https://app5.com/",
-    "need_selenium" : False,
-    "formnumber":1,
-    "formdata":{'username': 'admin', 'password': 'adminadmin'},}
+# URLs["https://app5.com/"] = {"name":"app5_admin",
+#     "login_page":"https://app5.com/",
+#     "need_selenium" : False,
+#     "formnumber":1,
+#     "formdata":{'username': 'admin', 'password': 'adminadmin'},}
 
 URLs["https://app6.com/admin.php"] = {"name":"app6_admin",
     "login_page":"https://app6.com/admin.php",
