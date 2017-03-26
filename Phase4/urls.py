@@ -74,7 +74,7 @@ URLs["https://app4.com/catalog/admin/"] = {"name":"app4_admin",
 
 URLs["https://app4.com/catalog"] = {"name":"app4_test",
     "login_page":"https://app4.com/catalog/",
-    "need_selenium" : True,
+    "need_selenium" : False,
     "formnumber":1,
     "formdata":{'username': 'test@test.com', 'password': 'testtest'},}
 
