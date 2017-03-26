@@ -1,0 +1,11 @@
+##### generate exploit scripts #######
+1: To generate exploit scripts (this will generate python selenium scripts)
+	> python generate_exploits.py -o <outfilename> -j <json_file_input>
+
+2: To run individual exploits:
+	> python <outputfilename_x.py>
+
+3. You can also run in a batch mode
+	> ./runall.sh
+
+4. output.log is generated where it contains all the logs (PASS/FAIL) for the exploits

@@ -1,0 +1,78 @@
+from scrapy import log # This module is useful for printing out debug information
+from scrapy.spider import BaseSpider
+from urlparse import urlparse
+import scrapy
+
+#uname = 'admin@admin.com'
+#pwd = 'admin'
+#uname = 'admin'
+#pwd = 'admin'
+uname = 'test@test.com'
+pwd = 'test'
+
+#uname_key = 'username'
+uname_key = 'email'
+pwd_key = 'password'
+count = 0
+url = 'https://app8.com'
+
+class StackSpider(BaseSpider):
+    #name = 'stack'
+    allowed_domains = ['app8.com']
+    start_urls = [
+        'https://app8.com/upload/index.php?route=account/login',
+    ]
+	
+    def parse(self, response):
+        global count
+        linkval = []
+        hxs = scrapy.Selector(response)
+        formlist = hxs.xpath('//form//@action').extract()
+        count = 0
+        for link in formlist:
+            count+=1
+            print "this link %%%%%% ---- > " + link
+            if link[0] == '/':
+                linkval.append(url + link)   
+            elif link.find("https:///") >= 0:
+                parse = urlparse(response.url)
+                linkval.append(parse.scheme + '://' + parse.netloc + parse.path + '?' + parse.query)      
+            else:
+                if response.url.find('http') >= 0:
+                    linkval.append(link)
+                else:
+                    linkval.append(url +  link)
+            
+        for x in range(count):   
+            print linkval[x] 
+            if linkval[x].find('login') >= 0:
+                yield scrapy.http.Request(url=linkval[x], callback=self.print_this_link, dont_filter=True)
+            
+    def print_this_link(self, link):
+        global count
+        print "############# Link --> {this_link}".format(this_link=link)
+        return scrapy.FormRequest.from_response(
+            link,
+            formdata={uname_key: uname, pwd_key: pwd},
+            #formxpath='//*[@class="personalarea FixedWidth"]//form',
+            #formxpath='//form[@id="login"]//*',
+            dont_filter=True,
+            formnumber=count-1,
+            callback=self.after_login
+            )        
+            
+    def after_login(self, response):
+        # check login succeed before going on
+        bodytext = response.body
+        bodytext.lower()
+        print response.url
+        if (bodytext.find("logout") >= 0 or
+            bodytext.find("log out") >= 0 or
+            response.url.find("login") < 0):
+            print "login passed for " + response.url
+            print "\n$$$$$$$$$$$$$$ Login Passed $$$$$$$$$$$$$$$\n"
+            login = 1
+            #crawler.engine.close_spider(self, 'ALREADY LOGGED IN')
+        else:
+            print "\nXXXXXXXXXXXX Login failed XXXXXXXXXXXXX\n"
+            login = 0    

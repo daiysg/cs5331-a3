@@ -1,0 +1,100 @@
+{
+    "https://bm1.com/case01/messages.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "title": {
+                        "type": "type", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "delete": {
+                        "type": "text", 
+                        "value": "true"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "title": {
+                        "type": "type", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "delete": {
+                        "type": "text", 
+                        "value": "true"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "title": {
+                        "type": "type", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "delete": {
+                        "type": "text", 
+                        "value": "true"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "title": {
+                        "type": "type", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "delete": {
+                        "type": "text", 
+                        "value": "true"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ]
+}

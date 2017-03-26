@@ -1,0 +1,394 @@
+
+
+### Form in URL:http://bm1.com/xoops/htdocs/user.php
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/user.php">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+@@@ form number 1
+<form action="user.php" method="post">
+    Username:  <input type="text" name="uname" size="26" maxlength="25" value=""><br><br>
+    Password:  <input type="password" name="pass" size="21" maxlength="32"><br><br>
+            <input type="checkbox" name="rememberme" value="On" checked> Remember me<br><br>
+        
+    <input type="hidden" name="op" value="login">
+    <input type="hidden" name="xoops_redirect" value="">
+    <input type="submit" value="User Login">
+  </form>
+@@@ form number 2
+<form action="lostpass.php" method="post">
+    Your Email:  <input type="text" name="email" size="26" maxlength="60">  <input type="hidden" name="op" value="mailpasswd"><input type="hidden" name="t" value="40fae315df52bdc1d2bc93454dd3bf5b"><input type="submit" value="Send Password">
+  </form>
+
+### Form in URL:https://bm1.com/xoops/htdocs/
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+
+### Form in URL:http://bm1.com/xoops/htdocs/register.php
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/register.php">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+@@@ form number 1
+<form name="userinfo" id="userinfo" action="register.php" method="post" onsubmit="return xoopsFormValidate_userinfo();">
+            <table width="100%" class="outer" cellspacing="1">
+            <tr><th colspan="2">User Registration</th></tr>
+        <tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Username</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="uname" title="Username" id="uname" size="10" maxlength="10" value=""></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Email</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="email" title="" id="email" size="25" maxlength="60" value="">
+<br><input type="checkbox" name="user_viewemail" id="user_viewemail1" title="" value="1"><label name="xolb_user_viewemail" for="user_viewemail1">Allow other users to view my email address</label> 
+</td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Password</span><span class="caption-marker">*</span></div></td><td class="even"><input type="password" name="pass" id="pass" size="10" maxlength="32" value="" autocomplete="off"></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Verify Password</span><span class="caption-marker">*</span></div></td><td class="even"><input type="password" name="vpass" id="vpass" size="10" maxlength="32" value="" autocomplete="off"></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Website</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="url" title="Website" id="url" size="25" maxlength="255" value=""></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Time Zone</span><span class="caption-marker">*</span></div></td><td class="even"><select size="1" name="timezone_offset" id="timezone_offset" title="Time Zone"><option value="-12">(GMT-12:00) Eniwetok, Kwajalein</option><option value="-11">(GMT-11:00) Midway Island, Samoa</option><option value="-10">(GMT-10:00) Hawaii</option><option value="-9">(GMT-9:00) Alaska</option><option value="-8">(GMT-8:00) Pacific Time (US &amp; Canada)</option><option value="-7">(GMT-7:00) Mountain Time (US &amp; Canada)</option><option value="-6">(GMT-6:00) Central Time (US &amp; Canada), Mexico City</option><option value="-5">(GMT-5:00) Eastern Time (US &amp; Canada), Bogota, Lima, Quito</option><option value="-4">(GMT-4:00) Atlantic Time (Canada), Caracas, La Paz</option><option value="-3.5">(GMT-3:30) Newfoundland</option><option value="-3">(GMT-3:00) Brasilia, Buenos Aires, Georgetown</option><option value="-2">(GMT-2:00) Mid-Atlantic</option><option value="-1">(GMT-1:00) Azores, Cape Verde Islands</option><option value="0" selected>(GMT) Greenwich Mean Time, London, Dublin, Lisbon, Casablanca, Monrovia</option><option value="1">(GMT+1:00) Amsterdam, Berlin, Rome, Copenhagen, Brussels, Madrid, Paris</option><option value="2">(GMT+2:00) Athens, Istanbul, Minsk, Helsinki, Jerusalem, South Africa</option><option value="3">(GMT+3:00) Baghdad, Kuwait, Riyadh, Moscow, St. Petersburg</option><option value="3.5">(GMT+3:30) Tehran</option><option value="4">(GMT+4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option><option value="4.5">(GMT+4:30) Kabul</option><option value="5">(GMT+5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option><option value="5.5">(GMT+5:30) Mumbai, Kolkata, Chennai, New Delhi</option><option value="6">(GMT+6:00) Almaty, Dhaka, Colombo</option><option value="7">(GMT+7:00) Bangkok, Hanoi, Jakarta</option><option value="8">(GMT+8:00) Beijing, Perth, Singapore, Hong Kong, Urumqi, Taipei</option><option value="9">(GMT+9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option><option value="9.5">(GMT+9:30) Adelaide, Darwin</option><option value="10">(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney, Guam,Vlasdiostok</option><option value="11">(GMT+11:00) Magadan, Solomon Islands, New Caledonia</option><option value="12">(GMT+12:00) Auckland, Wellington, Fiji, Kamchatka, Marshall Island</option></select></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Receive occasional email notices <br>from administrators and moderators?</span><span class="caption-marker">*</span></div></td><td class="even"><input type="radio" name="user_mailok" id="user_mailok1" title="Receive occasional email notices from administrators and moderators?" value="1"><label name="xolb_user_mailok" for="user_mailok1">Yes</label> <input type="radio" name="user_mailok" id="user_mailok2" title="Receive occasional email notices from administrators and moderators?" value="0" checked><label name="xolb_user_mailok" for="user_mailok2">No</label> </td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Disclaimer</span><span class="caption-marker">*</span></div></td><td class="even"><textarea name="disclaimer" id="disclaimer" title="" rows="15" cols="80" readonly>While the administrators and moderators of this site will attempt to remove
+or edit any generally objectionable material as quickly as possible, it is
+impossible to review every message. Therefore you acknowledge that all posts
+made to this site express the views and opinions of the author and not the
+administrators, moderators or webmaster (except for posts by these people)
+and hence will not be held liable.
+
+You agree not to post any abusive, obscene, vulgar, slanderous, hateful,
+threatening, sexually-orientated or any other material that may violate any
+applicable laws. Doing so may lead to you being immediately and permanently
+banned (and your service provider being informed). The IP address of all
+posts is recorded to aid in enforcing these conditions. Creating multiple
+accounts for a single user is not allowed. You agree that the webmaster,
+administrator and moderators of this site have the right to remove, edit,
+move or close any topic at any time should they see fit. As a user you agree
+to any information you have entered above being stored in a database. While
+this information will not be disclosed to any third party without your
+consent the webmaster, administrator and moderators cannot be held
+responsible for any hacking attempt that may lead to the data being
+compromised.
+
+This site system uses cookies to store information on your local computer.
+These cookies do not contain any of the information you have entered above,
+they serve only to improve your viewing pleasure. The email address is used
+only for confirming your registration details and password (and for sending
+new passwords should you forget your current one).
+
+By clicking Register below you agree to be bound by these conditions.</textarea>
+<br><input type="checkbox" name="agree_disc" id="agree_disc1" title="" value="1"><label name="xolb_agree_disc" for="agree_disc1">I agree to the above</label> 
+</td></tr>
+<tr valign="top" align="left"><td class="head"></td><td class="even"><input type="submit" class="formButton" name="submitButton" id="submitButton" value="Submit" title="Submit"></td></tr>
+</table>
+ <input type="hidden" name="XOOPS_TOKEN_REQUEST" id="XOOPS_TOKEN_REQUEST" value="aa87b30050ce11d08d4ca5539591dca1"><input type="hidden" name="op" id="op" value="newuser"></form>
+
+### Form in URL:http://bm1.com/xoops/htdocs/user.php
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/user.php">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+@@@ form number 1
+<form action="user.php" method="post">
+    Username:  <input type="text" name="uname" size="26" maxlength="25" value=""><br><br>
+    Password:  <input type="password" name="pass" size="21" maxlength="32"><br><br>
+            <input type="checkbox" name="rememberme" value="On" checked> Remember me<br><br>
+        
+    <input type="hidden" name="op" value="login">
+    <input type="hidden" name="xoops_redirect" value="">
+    <input type="submit" value="User Login">
+  </form>
+@@@ form number 2
+<form action="lostpass.php" method="post">
+    Your Email:  <input type="text" name="email" size="26" maxlength="60">  <input type="hidden" name="op" value="mailpasswd"><input type="hidden" name="t" value="d72d2d458c544363816ca112a7dc7c39"><input type="submit" value="Send Password">
+  </form>
+
+### Form in URL:http://bm1.com/xoops/htdocs/banners.php?bid=1&op=click
+
+
+### Form in URL:http://bm1.com/xoops/htdocs/
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+
+### Form in URL:http://bm1.com/xoops/htdocs/register.php
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/register.php">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+@@@ form number 1
+<form name="userinfo" id="userinfo" action="register.php" method="post" onsubmit="return xoopsFormValidate_userinfo();">
+            <table width="100%" class="outer" cellspacing="1">
+            <tr><th colspan="2">User Registration</th></tr>
+        <tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Username</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="uname" title="Username" id="uname" size="10" maxlength="10" value=""></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Email</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="email" title="" id="email" size="25" maxlength="60" value="">
+<br><input type="checkbox" name="user_viewemail" id="user_viewemail1" title="" value="1"><label name="xolb_user_viewemail" for="user_viewemail1">Allow other users to view my email address</label> 
+</td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Password</span><span class="caption-marker">*</span></div></td><td class="even"><input type="password" name="pass" id="pass" size="10" maxlength="32" value="" autocomplete="off"></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Verify Password</span><span class="caption-marker">*</span></div></td><td class="even"><input type="password" name="vpass" id="vpass" size="10" maxlength="32" value="" autocomplete="off"></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Website</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="url" title="Website" id="url" size="25" maxlength="255" value=""></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Time Zone</span><span class="caption-marker">*</span></div></td><td class="even"><select size="1" name="timezone_offset" id="timezone_offset" title="Time Zone"><option value="-12">(GMT-12:00) Eniwetok, Kwajalein</option><option value="-11">(GMT-11:00) Midway Island, Samoa</option><option value="-10">(GMT-10:00) Hawaii</option><option value="-9">(GMT-9:00) Alaska</option><option value="-8">(GMT-8:00) Pacific Time (US &amp; Canada)</option><option value="-7">(GMT-7:00) Mountain Time (US &amp; Canada)</option><option value="-6">(GMT-6:00) Central Time (US &amp; Canada), Mexico City</option><option value="-5">(GMT-5:00) Eastern Time (US &amp; Canada), Bogota, Lima, Quito</option><option value="-4">(GMT-4:00) Atlantic Time (Canada), Caracas, La Paz</option><option value="-3.5">(GMT-3:30) Newfoundland</option><option value="-3">(GMT-3:00) Brasilia, Buenos Aires, Georgetown</option><option value="-2">(GMT-2:00) Mid-Atlantic</option><option value="-1">(GMT-1:00) Azores, Cape Verde Islands</option><option value="0" selected>(GMT) Greenwich Mean Time, London, Dublin, Lisbon, Casablanca, Monrovia</option><option value="1">(GMT+1:00) Amsterdam, Berlin, Rome, Copenhagen, Brussels, Madrid, Paris</option><option value="2">(GMT+2:00) Athens, Istanbul, Minsk, Helsinki, Jerusalem, South Africa</option><option value="3">(GMT+3:00) Baghdad, Kuwait, Riyadh, Moscow, St. Petersburg</option><option value="3.5">(GMT+3:30) Tehran</option><option value="4">(GMT+4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option><option value="4.5">(GMT+4:30) Kabul</option><option value="5">(GMT+5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option><option value="5.5">(GMT+5:30) Mumbai, Kolkata, Chennai, New Delhi</option><option value="6">(GMT+6:00) Almaty, Dhaka, Colombo</option><option value="7">(GMT+7:00) Bangkok, Hanoi, Jakarta</option><option value="8">(GMT+8:00) Beijing, Perth, Singapore, Hong Kong, Urumqi, Taipei</option><option value="9">(GMT+9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option><option value="9.5">(GMT+9:30) Adelaide, Darwin</option><option value="10">(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney, Guam,Vlasdiostok</option><option value="11">(GMT+11:00) Magadan, Solomon Islands, New Caledonia</option><option value="12">(GMT+12:00) Auckland, Wellington, Fiji, Kamchatka, Marshall Island</option></select></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Receive occasional email notices <br>from administrators and moderators?</span><span class="caption-marker">*</span></div></td><td class="even"><input type="radio" name="user_mailok" id="user_mailok1" title="Receive occasional email notices from administrators and moderators?" value="1"><label name="xolb_user_mailok" for="user_mailok1">Yes</label> <input type="radio" name="user_mailok" id="user_mailok2" title="Receive occasional email notices from administrators and moderators?" value="0" checked><label name="xolb_user_mailok" for="user_mailok2">No</label> </td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Disclaimer</span><span class="caption-marker">*</span></div></td><td class="even"><textarea name="disclaimer" id="disclaimer" title="" rows="15" cols="80" readonly>While the administrators and moderators of this site will attempt to remove
+or edit any generally objectionable material as quickly as possible, it is
+impossible to review every message. Therefore you acknowledge that all posts
+made to this site express the views and opinions of the author and not the
+administrators, moderators or webmaster (except for posts by these people)
+and hence will not be held liable.
+
+You agree not to post any abusive, obscene, vulgar, slanderous, hateful,
+threatening, sexually-orientated or any other material that may violate any
+applicable laws. Doing so may lead to you being immediately and permanently
+banned (and your service provider being informed). The IP address of all
+posts is recorded to aid in enforcing these conditions. Creating multiple
+accounts for a single user is not allowed. You agree that the webmaster,
+administrator and moderators of this site have the right to remove, edit,
+move or close any topic at any time should they see fit. As a user you agree
+to any information you have entered above being stored in a database. While
+this information will not be disclosed to any third party without your
+consent the webmaster, administrator and moderators cannot be held
+responsible for any hacking attempt that may lead to the data being
+compromised.
+
+This site system uses cookies to store information on your local computer.
+These cookies do not contain any of the information you have entered above,
+they serve only to improve your viewing pleasure. The email address is used
+only for confirming your registration details and password (and for sending
+new passwords should you forget your current one).
+
+By clicking Register below you agree to be bound by these conditions.</textarea>
+<br><input type="checkbox" name="agree_disc" id="agree_disc1" title="" value="1"><label name="xolb_agree_disc" for="agree_disc1">I agree to the above</label> 
+</td></tr>
+<tr valign="top" align="left"><td class="head"></td><td class="even"><input type="submit" class="formButton" name="submitButton" id="submitButton" value="Submit" title="Submit"></td></tr>
+</table>
+ <input type="hidden" name="XOOPS_TOKEN_REQUEST" id="XOOPS_TOKEN_REQUEST" value="55944f6e09cfd17c8954a6c9953451a4"><input type="hidden" name="op" id="op" value="newuser"></form>
+
+### Form in URL:http://bm1.com/xoops/htdocs/
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+
+### Form in URL:http://www.xoops.org/
+
+@@@ form number 0
+<form id="wox-srh-form" style="margin: 0px; padding: 0;" action="http://xoops.org/search.php" method="get">
+                    <div class="wox_search">
+                        <img src="http://xoops.org/themes/wox/images/srh.png" alt="" onclick="$('#wox-srh-form').submit();">
+                        <input type="text" name="query" value="Search here..." id="wox-searchi">
+                        <input name="action" value="results" type="hidden">
+                    </div>
+                    <div class="the_links">
+                                                <a href="http://xoops.org/modules/profile/register.php" title="Register">Register</a>  |  <a href="javascript:;" id="wox-login-link" title="Login">Login</a>
+                                                                    </div>
+                </form>
+@@@ form number 1
+<form id="wox-login-form" action="http://xoops.org/user.php" method="post">
+                    <label for="uname">User:</label>
+                    <input type="text" name="uname" id="uname">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass">
+                    <input name="op" value="login" type="hidden">
+                    <input type="hidden" name="xoops_redirect" value="/">
+                    <input type="hidden" name="xoops_login" value="1">
+                    <!-- <a href="javascript:;" onclick="$('#wox-login-form').submit();">Login</a> -->
+                    <input type="submit" value="Login">
+                    <a href="javascript:;" id="wox-cancel-login" title="Cancel">Cancel</a>
+                </form>
+@@@ form number 2
+<form style="margin-top: 0;" action="http://xoops.org/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+
+### Form in URL:http://bm1.com/xoops/htdocs/register.php
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/register.php">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+@@@ form number 1
+<form name="userinfo" id="userinfo" action="register.php" method="post" onsubmit="return xoopsFormValidate_userinfo();">
+            <table width="100%" class="outer" cellspacing="1">
+            <tr><th colspan="2">User Registration</th></tr>
+        <tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Username</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="uname" title="Username" id="uname" size="10" maxlength="10" value=""></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Email</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="email" title="" id="email" size="25" maxlength="60" value="">
+<br><input type="checkbox" name="user_viewemail" id="user_viewemail1" title="" value="1"><label name="xolb_user_viewemail" for="user_viewemail1">Allow other users to view my email address</label> 
+</td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Password</span><span class="caption-marker">*</span></div></td><td class="even"><input type="password" name="pass" id="pass" size="10" maxlength="32" value="" autocomplete="off"></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Verify Password</span><span class="caption-marker">*</span></div></td><td class="even"><input type="password" name="vpass" id="vpass" size="10" maxlength="32" value="" autocomplete="off"></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Website</span><span class="caption-marker">*</span></div></td><td class="even"><input type="text" name="url" title="Website" id="url" size="25" maxlength="255" value=""></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Time Zone</span><span class="caption-marker">*</span></div></td><td class="even"><select size="1" name="timezone_offset" id="timezone_offset" title="Time Zone"><option value="-12">(GMT-12:00) Eniwetok, Kwajalein</option><option value="-11">(GMT-11:00) Midway Island, Samoa</option><option value="-10">(GMT-10:00) Hawaii</option><option value="-9">(GMT-9:00) Alaska</option><option value="-8">(GMT-8:00) Pacific Time (US &amp; Canada)</option><option value="-7">(GMT-7:00) Mountain Time (US &amp; Canada)</option><option value="-6">(GMT-6:00) Central Time (US &amp; Canada), Mexico City</option><option value="-5">(GMT-5:00) Eastern Time (US &amp; Canada), Bogota, Lima, Quito</option><option value="-4">(GMT-4:00) Atlantic Time (Canada), Caracas, La Paz</option><option value="-3.5">(GMT-3:30) Newfoundland</option><option value="-3">(GMT-3:00) Brasilia, Buenos Aires, Georgetown</option><option value="-2">(GMT-2:00) Mid-Atlantic</option><option value="-1">(GMT-1:00) Azores, Cape Verde Islands</option><option value="0" selected>(GMT) Greenwich Mean Time, London, Dublin, Lisbon, Casablanca, Monrovia</option><option value="1">(GMT+1:00) Amsterdam, Berlin, Rome, Copenhagen, Brussels, Madrid, Paris</option><option value="2">(GMT+2:00) Athens, Istanbul, Minsk, Helsinki, Jerusalem, South Africa</option><option value="3">(GMT+3:00) Baghdad, Kuwait, Riyadh, Moscow, St. Petersburg</option><option value="3.5">(GMT+3:30) Tehran</option><option value="4">(GMT+4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option><option value="4.5">(GMT+4:30) Kabul</option><option value="5">(GMT+5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option><option value="5.5">(GMT+5:30) Mumbai, Kolkata, Chennai, New Delhi</option><option value="6">(GMT+6:00) Almaty, Dhaka, Colombo</option><option value="7">(GMT+7:00) Bangkok, Hanoi, Jakarta</option><option value="8">(GMT+8:00) Beijing, Perth, Singapore, Hong Kong, Urumqi, Taipei</option><option value="9">(GMT+9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option><option value="9.5">(GMT+9:30) Adelaide, Darwin</option><option value="10">(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney, Guam,Vlasdiostok</option><option value="11">(GMT+11:00) Magadan, Solomon Islands, New Caledonia</option><option value="12">(GMT+12:00) Auckland, Wellington, Fiji, Kamchatka, Marshall Island</option></select></td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption"><span class="caption-text">Receive occasional email notices <br>from administrators and moderators?</span><span class="caption-marker">*</span></div></td><td class="even"><input type="radio" name="user_mailok" id="user_mailok1" title="Receive occasional email notices from administrators and moderators?" value="1"><label name="xolb_user_mailok" for="user_mailok1">Yes</label> <input type="radio" name="user_mailok" id="user_mailok2" title="Receive occasional email notices from administrators and moderators?" value="0" checked><label name="xolb_user_mailok" for="user_mailok2">No</label> </td></tr>
+<tr valign="top" align="left"><td class="head"><div class="xoops-form-element-caption-required"><span class="caption-text">Disclaimer</span><span class="caption-marker">*</span></div></td><td class="even"><textarea name="disclaimer" id="disclaimer" title="" rows="15" cols="80" readonly>While the administrators and moderators of this site will attempt to remove
+or edit any generally objectionable material as quickly as possible, it is
+impossible to review every message. Therefore you acknowledge that all posts
+made to this site express the views and opinions of the author and not the
+administrators, moderators or webmaster (except for posts by these people)
+and hence will not be held liable.
+
+You agree not to post any abusive, obscene, vulgar, slanderous, hateful,
+threatening, sexually-orientated or any other material that may violate any
+applicable laws. Doing so may lead to you being immediately and permanently
+banned (and your service provider being informed). The IP address of all
+posts is recorded to aid in enforcing these conditions. Creating multiple
+accounts for a single user is not allowed. You agree that the webmaster,
+administrator and moderators of this site have the right to remove, edit,
+move or close any topic at any time should they see fit. As a user you agree
+to any information you have entered above being stored in a database. While
+this information will not be disclosed to any third party without your
+consent the webmaster, administrator and moderators cannot be held
+responsible for any hacking attempt that may lead to the data being
+compromised.
+
+This site system uses cookies to store information on your local computer.
+These cookies do not contain any of the information you have entered above,
+they serve only to improve your viewing pleasure. The email address is used
+only for confirming your registration details and password (and for sending
+new passwords should you forget your current one).
+
+By clicking Register below you agree to be bound by these conditions.</textarea>
+<br><input type="checkbox" name="agree_disc" id="agree_disc1" title="" value="1"><label name="xolb_agree_disc" for="agree_disc1">I agree to the above</label> 
+</td></tr>
+<tr valign="top" align="left"><td class="head"></td><td class="even"><input type="submit" class="formButton" name="submitButton" id="submitButton" value="Submit" title="Submit"></td></tr>
+</table>
+ <input type="hidden" name="XOOPS_TOKEN_REQUEST" id="XOOPS_TOKEN_REQUEST" value="b1ca8edab1752b8f2441467993405542"><input type="hidden" name="op" id="op" value="newuser"></form>
+
+### Form in URL:http://www.xoops.org/
+
+@@@ form number 0
+<form id="wox-srh-form" style="margin: 0px; padding: 0;" action="http://xoops.org/search.php" method="get">
+                    <div class="wox_search">
+                        <img src="http://xoops.org/themes/wox/images/srh.png" alt="" onclick="$('#wox-srh-form').submit();">
+                        <input type="text" name="query" value="Search here..." id="wox-searchi">
+                        <input name="action" value="results" type="hidden">
+                    </div>
+                    <div class="the_links">
+                                                <a href="http://xoops.org/modules/profile/register.php" title="Register">Register</a>  |  <a href="javascript:;" id="wox-login-link" title="Login">Login</a>
+                                                                    </div>
+                </form>
+@@@ form number 1
+<form id="wox-login-form" action="http://xoops.org/user.php" method="post">
+                    <label for="uname">User:</label>
+                    <input type="text" name="uname" id="uname">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass">
+                    <input name="op" value="login" type="hidden">
+                    <input type="hidden" name="xoops_redirect" value="/">
+                    <input type="hidden" name="xoops_login" value="1">
+                    <!-- <a href="javascript:;" onclick="$('#wox-login-form').submit();">Login</a> -->
+                    <input type="submit" value="Login">
+                    <a href="javascript:;" id="wox-cancel-login" title="Cancel">Cancel</a>
+                </form>
+@@@ form number 2
+<form style="margin-top: 0;" action="http://xoops.org/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>
+
+### Form in URL:http://bm1.com/xoops/htdocs/
+
+@@@ form number 0
+<form style="margin-top: 0;" action="http://bm1.com/xoops/htdocs/user.php" method="post">
+		Username: <br>
+		<input type="text" name="uname" size="12" value="" maxlength="25"><br>
+		Password: <br>
+		<input type="password" name="pass" size="12" maxlength="32"><br>
+					<input type="checkbox" name="rememberme" value="On" class="formButton">Remember me<br>
+				<br>
+		<input type="hidden" name="xoops_redirect" value="/xoops/htdocs/">
+		<input type="hidden" name="op" value="login">
+		<input type="submit" value="User Login"><br>
+		
+	</form>

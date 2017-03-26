@@ -1,0 +1,222 @@
+{
+    "http://bm1.com/testlink/firstLogin.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "CSRFName": {
+                        "type": "hidden", 
+                        "value": "CSRFGuard_279574827"
+                    }, 
+                    "CSRFToken": {
+                        "type": "hidden", 
+                        "value": "5d12b635be59a6777c7d48e558a343acc80fea989e3e4105df82027ef2b397f2cefd68147a99fb3930b31af691da54050938781ec6c5debdf79f419ae3111b71"
+                    }, 
+                    "doEditUser": {
+                        "type": "submit", 
+                        "value": "Sign up"
+                    }, 
+                    "email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "firstName": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "lastName": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "login": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "password": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "password2": {
+                        "type": "password", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/testlink/login.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "CSRFName": {
+                        "type": "hidden", 
+                        "value": "CSRFGuard_1439489043"
+                    }, 
+                    "CSRFToken": {
+                        "type": "hidden", 
+                        "value": "c52a21d8f7237b6486211e092ff850f95a90eaf7bd7f79134d9c3179bfd904cabd78e197b88052b47a031bd954a0ecd3739ab2ca8f6eb70e482ba05fd9e86738"
+                    }, 
+                    "destination": {
+                        "type": "hidden", 
+                        "value": ""
+                    }, 
+                    "login_submit": {
+                        "type": "submit", 
+                        "value": "Log in"
+                    }, 
+                    "reqURI": {
+                        "type": "hidden", 
+                        "value": ""
+                    }, 
+                    "tl_login": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "tl_password": {
+                        "type": "password", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/testlink/lostPassword.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "CSRFName": {
+                        "type": "hidden", 
+                        "value": "CSRFGuard_2085261955"
+                    }, 
+                    "CSRFToken": {
+                        "type": "hidden", 
+                        "value": "32c687c542e4eb4c28878da054a91a0f669bb225c0f631bd51110f9115a6f88a80e048c22b2babdfb797cbd1ec4e1cbadcb64ea9fbc79a17e9a69c8c80288a53"
+                    }, 
+                    "editUser": {
+                        "type": "submit", 
+                        "value": "Send"
+                    }, 
+                    "login": {
+                        "type": "text", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://bm1.com/testlink/firstLogin.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "CSRFName": {
+                        "type": "hidden", 
+                        "value": "CSRFGuard_507548056"
+                    }, 
+                    "CSRFToken": {
+                        "type": "hidden", 
+                        "value": "b869dccc1365297b0dc137ec40bb0ff148ad56f829377e8f431a2a697b50384f4ccd21be714cd9db1ea079cd5d2210a41dc8a1dbd768f29bd310cdf3c3509e33"
+                    }, 
+                    "doEditUser": {
+                        "type": "submit", 
+                        "value": "Sign up"
+                    }, 
+                    "email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "firstName": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "lastName": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "login": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "password": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "password2": {
+                        "type": "password", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://bm1.com/testlink/login.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "CSRFName": {
+                        "type": "hidden", 
+                        "value": "CSRFGuard_332124504"
+                    }, 
+                    "CSRFToken": {
+                        "type": "hidden", 
+                        "value": "e92ccdb05c904d580a29dd8aa1719174e7632e764d8f14980206552138c7a6315b02d423e9769145a8c04298a673f55eba1defdfe671ef2943b6b46ed19c8a76"
+                    }, 
+                    "destination": {
+                        "type": "hidden", 
+                        "value": ""
+                    }, 
+                    "login_submit": {
+                        "type": "submit", 
+                        "value": "Log in"
+                    }, 
+                    "reqURI": {
+                        "type": "hidden", 
+                        "value": ""
+                    }, 
+                    "tl_login": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "tl_password": {
+                        "type": "password", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://bm1.com/testlink/lostPassword.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "CSRFName": {
+                        "type": "hidden", 
+                        "value": "CSRFGuard_1592609590"
+                    }, 
+                    "CSRFToken": {
+                        "type": "hidden", 
+                        "value": "edff507398bb8069460f185c74b52246d1a8ac1681315fad84a044980302993b5bf2d3f60d26fbf9373c99a1b6679314b8a9dcceccd81c42cf3fc466f1cc41ca"
+                    }, 
+                    "editUser": {
+                        "type": "submit", 
+                        "value": "Send"
+                    }, 
+                    "login": {
+                        "type": "text", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+
+
+### Form in URL:https://bm1.com/case01/messages.php
+
+@@@ form number 0
+<form action="/case01/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 
+            <input type="submit" onclick="sanitise()"> 
+        </form>
+
+### Form in URL:https://bm1.com/case01/messages.php
+
+@@@ form number 0
+<form action="/case01/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 
+            <input type="submit" onclick="sanitise()"> 
+        </form>
+
+### Form in URL:https://bm1.com/case01/messages.php
+
+@@@ form number 0
+<form action="/case01/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 
+            <input type="submit" onclick="sanitise()"> 
+        </form>
+
+### Form in URL:https://bm1.com/case01/messages.php
+
+@@@ form number 0
+<form action="/case01/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 
+            <input type="submit" onclick="sanitise()"> 
+        </form>

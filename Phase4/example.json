@@ -1,0 +1,104 @@
+{
+    "https://app6.com/zimplit.php?action=changeuserpass": [
+        {
+            "params": {
+                "content": "admin@admin.com", 
+                "username": "admin", 
+                "password": "mypassword"
+            }, 
+            "method": "POST"
+        }
+    ], 
+    "https://app8.com/app8.com/upload/status.php": [
+        {
+            "params": {
+                "password": "mypassword", 
+                "confirm": "mypassword"
+            }, 
+            "method": "POST"
+        }
+    ], 
+    "https://app4.com/admin/os.php": [
+        {
+            "params": {
+                "os_id": "1", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "os_id": "0", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ], 
+    "https://app8.com/app8.com/upload/index.php": [
+        {
+            "params": {
+                "password": "mypassword", 
+                "confirm": "mypassword"
+            }, 
+            "method": "POST"
+        }
+    ],
+    "https://app4.com/admin/status.php": [
+        {
+            "params": {
+                "op": "del", 
+                "status_id": "1"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "status_id": "0", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "op": "del", 
+                "status_id": "3"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "status_id": "2", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "op": "del", 
+                "status_id": "5"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "status_id": "4", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "op": "del", 
+                "status_id": "7"
+            }, 
+            "method": "GET"
+        }, 
+        {
+            "params": {
+                "status_id": "6", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ]
+}

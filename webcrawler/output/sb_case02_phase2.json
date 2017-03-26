@@ -1,0 +1,42 @@
+{
+    "https://bm1.com/case02/messages.php": [
+        {
+            "params": {
+                "GET": {
+                    "1179758754": {
+                        "type": "text", 
+                        "value": [
+                            "170e9ee39de2ffbdc793fefdb3015340146ce680930f373e4a5a03095bc5078c"
+                        ]
+                    }, 
+                    "delete": {
+                        "type": "text", 
+                        "value": [
+                            "true"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "1179758754": {
+                        "type": "hidden", 
+                        "value": [
+                            "170e9ee39de2ffbdc793fefdb3015340146ce680930f373e4a5a03095bc5078c"
+                        ]
+                    }, 
+                    "title": {
+                        "type": "type", 
+                        "value": []
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ]
+}

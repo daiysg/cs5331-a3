@@ -1,0 +1,33 @@
+{
+    "http://bm1.com/opendocman/access_log.php": [], 
+    "http://bm1.com/opendocman/add.php": [], 
+    "http://bm1.com/opendocman/category.php": [], 
+    "http://bm1.com/opendocman/check_exp.php": [], 
+    "http://bm1.com/opendocman/delete.php": [], 
+    "http://bm1.com/opendocman/department.php": [], 
+    "http://bm1.com/opendocman/file_ops.php": [], 
+    "http://bm1.com/opendocman/filetypes.php": [], 
+    "http://bm1.com/opendocman/rejects.php": [], 
+    "http://bm1.com/opendocman/search.php": [], 
+    "http://bm1.com/opendocman/settings.php": [], 
+    "http://bm1.com/opendocman/toBePublished.php": [], 
+    "http://bm1.com/opendocman/udf.php": [], 
+    "http://bm1.com/opendocman/user.php": [
+        {
+            "method": "POST", 
+            "params": {
+                "Email": "admin@example.com", 
+                "admin": "1", 
+                "can_add": "1", 
+                "can_checkin": "1", 
+                "first_name": "Admin", 
+                "id": "1", 
+                "last_name": "User", 
+                "password": "mypassword", 
+                "phonenumber": "5555551212", 
+                "set_password": "0", 
+                "username": "admin"
+            }
+        }
+    ]
+}

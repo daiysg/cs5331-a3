@@ -1,0 +1,130 @@
+
+
+### Form in URL:http://bm1.com/testlink/login.php
+
+@@@ form number 0
+<form method="post" name="login_form" action="login.php">
+                       <input type="hidden" name="CSRFName" id="CSRFName" value="CSRFGuard_1439489043">
+                       <input type="hidden" name="CSRFToken" id="CSRFToken" value="c52a21d8f7237b6486211e092ff850f95a90eaf7bd7f79134d9c3179bfd904cabd78e197b88052b47a031bd954a0ecd3739ab2ca8f6eb70e482ba05fd9e86738">
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Please log in ...</div>
+      <input type="hidden" name="reqURI" value="">
+      <input type="hidden" name="destination" value="">
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br>
+      <input type="text" name="tl_login" id="login" size="50" style="height: 18px;" maxlength="30" required>
+    </p>
+      <p class="label">Password<br>
+      <input type="password" name="tl_password" style="height: 18px;" size="50" maxlength="40" required>
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in">
+    </div>
+    </form>
+
+### Form in URL:https://bm1.com/testlink/
+
+
+### Form in URL:http://bm1.com/testlink/lostPassword.php
+
+@@@ form number 0
+<form method="post" action="lostPassword.php">
+                       <input type="hidden" name="CSRFName" id="CSRFName" value="CSRFGuard_2085261955">
+                       <input type="hidden" name="CSRFToken" id="CSRFToken" value="32c687c542e4eb4c28878da054a91a0f669bb225c0f631bd51110f9115a6f88a80e048c22b2babdfb797cbd1ec4e1cbadcb64ea9fbc79a17e9a69c8c80288a53">
+ 		  <div class="messages" style="text-align:center;">Enter Your User Information so that your new password can be mailed to you.</div>
+    	
+    	<p class="label">Login Name<br>
+    	<input type="text" name="login" id="login" size="50" maxlength="30"></p>
+    	<p><input type="submit" name="editUser" value="Send"></p>
+    </form>
+
+### Form in URL:http://bm1.com/testlink/firstLogin.php
+
+@@@ form number 0
+<form method="post" action="firstLogin.php">
+                       <input type="hidden" name="CSRFName" id="CSRFName" value="CSRFGuard_279574827">
+                       <input type="hidden" name="CSRFToken" id="CSRFToken" value="5d12b635be59a6777c7d48e558a343acc80fea989e3e4105df82027ef2b397f2cefd68147a99fb3930b31af691da54050938781ec6c5debdf79f419ae3111b71">
+
+	<p class="label">Login Name<br>
+	<input type="text" name="login" id="login" size="50" maxlength="30" value="" required></p>
+
+    	<p class="label">Password<br>
+  	<input type="password" name="password" size="50" maxlength="" required></p>
+  	<p class="label">Repeat password<br>
+  	<input type="password" name="password2" size="50" maxlength="" required></p>
+    
+	<p class="label">First name<br>
+	<input type="text" name="firstName" size="50" maxlength="50" value="" required></p>
+	<p class="label">Last name<br>
+	<input type="text" name="lastName" size="50" maxlength="50" value="" required></p>
+
+	<p class="label">E-mail address<br>
+	<input type="text" name="email" size="50" maxlength="100" value="" required></p>
+
+  
+	<br><input type="submit" name="doEditUser" value="Sign up">
+</form>
+
+### Form in URL:https://bm1.com/testlink/login.php
+
+@@@ form number 0
+<form method="post" name="login_form" action="login.php">
+                       <input type="hidden" name="CSRFName" id="CSRFName" value="CSRFGuard_332124504">
+                       <input type="hidden" name="CSRFToken" id="CSRFToken" value="e92ccdb05c904d580a29dd8aa1719174e7632e764d8f14980206552138c7a6315b02d423e9769145a8c04298a673f55eba1defdfe671ef2943b6b46ed19c8a76">
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">Please log in ...</div>
+      <input type="hidden" name="reqURI" value="">
+      <input type="hidden" name="destination" value="">
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Login<br>
+      <input type="text" name="tl_login" id="login" size="50" style="height: 18px;" maxlength="30" required>
+    </p>
+      <p class="label">Password<br>
+      <input type="password" name="tl_password" style="height: 18px;" size="50" maxlength="40" required>
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Log in">
+    </div>
+    </form>
+
+### Form in URL:https://bm1.com/testlink/lostPassword.php
+
+@@@ form number 0
+<form method="post" action="lostPassword.php">
+                       <input type="hidden" name="CSRFName" id="CSRFName" value="CSRFGuard_1592609590">
+                       <input type="hidden" name="CSRFToken" id="CSRFToken" value="edff507398bb8069460f185c74b52246d1a8ac1681315fad84a044980302993b5bf2d3f60d26fbf9373c99a1b6679314b8a9dcceccd81c42cf3fc466f1cc41ca">
+ 		  <div class="messages" style="text-align:center;">Enter Your User Information so that your new password can be mailed to you.</div>
+    	
+    	<p class="label">Login Name<br>
+    	<input type="text" name="login" id="login" size="50" maxlength="30"></p>
+    	<p><input type="submit" name="editUser" value="Send"></p>
+    </form>
+
+### Form in URL:https://bm1.com/testlink/firstLogin.php
+
+@@@ form number 0
+<form method="post" action="firstLogin.php">
+                       <input type="hidden" name="CSRFName" id="CSRFName" value="CSRFGuard_507548056">
+                       <input type="hidden" name="CSRFToken" id="CSRFToken" value="b869dccc1365297b0dc137ec40bb0ff148ad56f829377e8f431a2a697b50384f4ccd21be714cd9db1ea079cd5d2210a41dc8a1dbd768f29bd310cdf3c3509e33">
+
+	<p class="label">Login Name<br>
+	<input type="text" name="login" id="login" size="50" maxlength="30" value="" required></p>
+
+    	<p class="label">Password<br>
+  	<input type="password" name="password" size="50" maxlength="" required></p>
+  	<p class="label">Repeat password<br>
+  	<input type="password" name="password2" size="50" maxlength="" required></p>
+    
+	<p class="label">First name<br>
+	<input type="text" name="firstName" size="50" maxlength="50" value="" required></p>
+	<p class="label">Last name<br>
+	<input type="text" name="lastName" size="50" maxlength="50" value="" required></p>
+
+	<p class="label">E-mail address<br>
+	<input type="text" name="email" size="50" maxlength="100" value="" required></p>
+
+  
+	<br><input type="submit" name="doEditUser" value="Sign up">
+</form>

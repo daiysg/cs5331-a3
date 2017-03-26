@@ -1,0 +1,12 @@
+{
+    "https://app6.com/zimplit.php?action=changeuserpass": [
+        {
+            "params": {
+                "content": "admin@admin.com", 
+                "username": "admin", 
+                "password": "mypassword"
+            }, 
+            "method": "POST"
+        }
+    ]
+}

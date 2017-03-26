@@ -1,0 +1,81 @@
+
+
+### Form in URL:https://bm1.com/case02/messages.php
+
+@@@ form number 0
+<form action="/case02/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 	    <input type="hidden" name="1179758754" value="170e9ee39de2ffbdc793fefdb3015340146ce680930f373e4a5a03095bc5078c">
+            <input type="submit" onclick="sanitise()"> 
+        </form>
+
+### Form in URL:https://bm1.com/case02/messages.php
+
+@@@ form number 0
+<form action="/case02/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 	    <input type="hidden" name="1179758754" value="170e9ee39de2ffbdc793fefdb3015340146ce680930f373e4a5a03095bc5078c">
+            <input type="submit" onclick="sanitise()"> 
+        </form>
+
+### Form in URL:https://bm1.com/case02/messages.php
+
+@@@ form number 0
+<form action="/case02/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 	    <input type="hidden" name="1179758754" value="170e9ee39de2ffbdc793fefdb3015340146ce680930f373e4a5a03095bc5078c">
+            <input type="submit" onclick="sanitise()"> 
+        </form>
+
+### Form in URL:https://bm1.com/case02/messages.php
+
+@@@ form number 0
+<form action="/case02/messages.php" method="post" id="form_valid" enctype="multipart/form-data">  
+            Enter your comments:  
+            <table> 
+                <tr> 
+                    <td width="20%">Title: </td> 
+                    <td><input type="type" id="title" name="title" maxlength="10"><br><br></td> 
+                </tr> 
+                 
+                <tr> 
+                    <td>Message: </td> 
+                    <td><textarea name="content" id="content" cols="50" rows="10"></textarea><br><br></td> 
+                </tr> 
+            </table> 
+ 	    <input type="hidden" name="1179758754" value="170e9ee39de2ffbdc793fefdb3015340146ce680930f373e4a5a03095bc5078c">
+            <input type="submit" onclick="sanitise()"> 
+        </form>

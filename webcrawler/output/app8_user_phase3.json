@@ -1,0 +1,1399 @@
+{
+    "https://app8.com/upload/index.php": [
+        [
+            {
+                "params": {
+                    "password": "mypassword", 
+                    "confirm": "mypassword"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "account/password"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=34&product_id=32", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=20_27&product_id=41", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=34&product_id=36", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=36", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=34", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=32", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=account/newsletter", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=34&product_id=34", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=25_28", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=25_29", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=information/information&information_id=5", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=information/information&information_id=4", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=25_28&product_id=42", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=information/information&information_id=3", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=28", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=account/download", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=10&product_id=46", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=20_27", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=20_26", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=25_28&product_id=33", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=34&product_id=48", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=6&product_id=29", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=24&product_id=40", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=17", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=25_32", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=18", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=25_30", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=25_31", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/manufacturer&manufacturer_id=8", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/manufacturer&manufacturer_id=9", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/manufacturer&manufacturer_id=5", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/manufacturer&manufacturer_id=6", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/manufacturer&manufacturer_id=7", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=33&product_id=30", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=46", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=48", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=45", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=44", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=47", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=checkout/shipping", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=41", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=40", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=43", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=42", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=43", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=42", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=41", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=40", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=20&product_id=46", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=45", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=44", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=8&product_id=48", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=24&product_id=29", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=24&product_id=28", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=5&product_id=28", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=30", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=31", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=32", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=33", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=34", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=account/edit", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=36", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=account/password", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=20&product_id=33", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=20&product_id=30", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=information/contact", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=20&product_id=35", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/manufacturer&manufacturer_id=10", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=account/address", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=29", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=7&product_id=47", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=account/history", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=common/home", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=information/sitemap", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=33&product_id=31", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&manufacturer_id=9&product_id=30", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=checkout/cart", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=18&product_id=45", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=20&product_id=44", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=20", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=25", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=24", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=account/account", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=33", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/category&path=34", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=18&product_id=43", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=18&product_id=46", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=18&product_id=47", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&path=18&product_id=44", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/product&product_id=35", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/special", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "redirect": "https://app8.com/upload/index.php?route=product/search", 
+                    "currency_code": "USD"
+                }, 
+                "method": "POST"
+            }, 
+            {
+                "params": {
+                    "route": "common/home"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,1462 @@
+{
+    "http://bm1.com/opendocman/access_log.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "update"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "update"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/opendocman/add.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "department_permission[1]": {
+                        "type": "radio", 
+                        "value": "4"
+                    }, 
+                    "description": {
+                        "type": "Text", 
+                        "value": ""
+                    }, 
+                    "file[]": {
+                        "type": "file", 
+                        "value": ""
+                    }, 
+                    "i_value": {
+                        "type": "hidden", 
+                        "value": "0"
+                    }, 
+                    "user_permission[1]": {
+                        "type": "radio", 
+                        "value": "4"
+                    }, 
+                    "user_permission[2]": {
+                        "type": "radio", 
+                        "value": "4"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "department_permission[1]": {
+                        "type": "radio", 
+                        "value": "4"
+                    }, 
+                    "description": {
+                        "type": "Text", 
+                        "value": ""
+                    }, 
+                    "file[]": {
+                        "type": "file", 
+                        "value": ""
+                    }, 
+                    "i_value": {
+                        "type": "hidden", 
+                        "value": "0"
+                    }, 
+                    "user_permission[1]": {
+                        "type": "radio", 
+                        "value": "4"
+                    }, 
+                    "user_permission[2]": {
+                        "type": "radio", 
+                        "value": "4"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/opendocman/category.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "add"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "updatepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "showpick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "add"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "updatepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "showpick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "state": {
+                        "type": "hidden", 
+                        "value": "3"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "state": {
+                        "type": "hidden", 
+                        "value": "3"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "category": {
+                        "type": "text", 
+                        "value": ""
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/opendocman/check_exp.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/opendocman/delete.php": [
+        {
+            "params": {
+                "GET": {
+                    "mode": {
+                        "type": "text", 
+                        "value": "view_del_archive"
+                    }, 
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "mode": {
+                        "type": "text", 
+                        "value": "view_del_archive"
+                    }, 
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/opendocman/department.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "add"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "updatepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "showpick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "add"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "updatepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "showpick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "state": {
+                        "type": "hidden", 
+                        "value": "3"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "hidden", 
+                        "value": "3"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "department": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "submit": {
+                        "type": "hidden", 
+                        "value": "Add Department"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/opendocman/file_ops.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "view_checkedout"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "view_checkedout"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "submit": {
+                        "type": "hidden", 
+                        "value": "Clear Status"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/opendocman/filetypes.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "update"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "update"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "submit": {
+                        "type": "text", 
+                        "value": "AddNew"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "submit": {
+                        "type": "text", 
+                        "value": "DeleteSelect"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "Submit": {
+                        "type": "hidden", 
+                        "value": "add"
+                    }, 
+                    "filetype": {
+                        "type": "text", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/opendocman/rejects.php": [
+        {
+            "params": {
+                "GET": {
+                    "mode": {
+                        "type": "text", 
+                        "value": "root"
+                    }, 
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "mode": {
+                        "type": "text", 
+                        "value": "root"
+                    }, 
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "mode": {
+                        "type": "text", 
+                        "value": "root"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/opendocman/search.php": [
+        {
+            "params": {
+                "GET": {
+                    "case_sensitivity": {
+                        "type": "checkbox", 
+                        "value": ""
+                    }, 
+                    "exact_phrase": {
+                        "type": "checkbox", 
+                        "value": ""
+                    }, 
+                    "keyword": {
+                        "type": "Text", 
+                        "value": ""
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "case_sensitivity": {
+                        "type": "checkbox", 
+                        "value": ""
+                    }, 
+                    "exact_phrase": {
+                        "type": "checkbox", 
+                        "value": ""
+                    }, 
+                    "keyword": {
+                        "type": "Text", 
+                        "value": ""
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/opendocman/settings.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "update"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "update"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "base_url": {
+                        "type": "text", 
+                        "value": "http://bm1.com/opendocman"
+                    }, 
+                    "dataDir": {
+                        "type": "text", 
+                        "value": "/var/www/bm1.com/odm_data/"
+                    }, 
+                    "max_filesize": {
+                        "type": "text", 
+                        "value": "5000000"
+                    }, 
+                    "max_query": {
+                        "type": "text", 
+                        "value": "500"
+                    }, 
+                    "revision_expiration": {
+                        "type": "text", 
+                        "value": "90"
+                    }, 
+                    "site_mail": {
+                        "type": "text", 
+                        "value": "root@localhost"
+                    }, 
+                    "title": {
+                        "type": "text", 
+                        "value": "Document Repository"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/opendocman/toBePublished.php": [
+        {
+            "params": {
+                "GET": {
+                    "mode": {
+                        "type": "text", 
+                        "value": "root"
+                    }, 
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "mode": {
+                        "type": "text", 
+                        "value": "root"
+                    }, 
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/opendocman/udf.php": [
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "add"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "add"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "display_name": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "table_name": {
+                        "type": "text", 
+                        "value": ""
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/opendocman/user.php": [
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "adduser"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "updatepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "showpick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "adduser"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "deletepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "updatepick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "state": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "showpick"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "Email": {
+                        "type": "text", 
+                        "value": "admin@example.com"
+                    }, 
+                    "admin": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "can_add": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "can_checkin": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "first_name": {
+                        "type": "text", 
+                        "value": "Admin"
+                    }, 
+                    "id": {
+                        "type": "hidden", 
+                        "value": "1"
+                    }, 
+                    "last_name": {
+                        "type": "text", 
+                        "value": "User"
+                    }, 
+                    "password": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "phonenumber": {
+                        "type": "text", 
+                        "value": "5555551212"
+                    }, 
+                    "set_password": {
+                        "type": "hidden", 
+                        "value": "0"
+                    }, 
+                    "username": {
+                        "type": "text", 
+                        "value": "admin"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "state": {
+                        "type": "hidden", 
+                        "value": "3"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "state": {
+                        "type": "hidden", 
+                        "value": "3"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "Email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "admin": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "can_add": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "can_checkin": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "first_name": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "last_name": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "password": {
+                        "type": "text", 
+                        "value": "je5u7c"
+                    }, 
+                    "phonenumber": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "username": {
+                        "type": "text", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "item": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "submit": {
+                        "type": "text", 
+                        "value": "Modify User"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ]
+}

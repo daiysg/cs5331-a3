@@ -1,0 +1,658 @@
+{
+    "http://bm1.com/xoops/htdocs/banners.php": [
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "3"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "1"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "3"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "3"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bid": {
+                        "type": "text", 
+                        "value": "2"
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": "click"
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "http://bm1.com/xoops/htdocs/lostpass.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": "mailpasswd"
+                    }, 
+                    "t": {
+                        "type": "hidden", 
+                        "value": "40fae315df52bdc1d2bc93454dd3bf5b"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": "mailpasswd"
+                    }, 
+                    "t": {
+                        "type": "hidden", 
+                        "value": "d72d2d458c544363816ca112a7dc7c39"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/xoops/htdocs/register.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "XOOPS_TOKEN_REQUEST": {
+                        "type": "hidden", 
+                        "value": "aa87b30050ce11d08d4ca5539591dca1"
+                    }, 
+                    "agree_disc": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": "newuser"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "submitButton": {
+                        "type": "submit", 
+                        "value": "Submit"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "url": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "user_mailok": {
+                        "type": "radio", 
+                        "value": "0"
+                    }, 
+                    "user_viewemail": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "vpass": {
+                        "type": "password", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "XOOPS_TOKEN_REQUEST": {
+                        "type": "hidden", 
+                        "value": "55944f6e09cfd17c8954a6c9953451a4"
+                    }, 
+                    "agree_disc": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": "newuser"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "submitButton": {
+                        "type": "submit", 
+                        "value": "Submit"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "url": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "user_mailok": {
+                        "type": "radio", 
+                        "value": "0"
+                    }, 
+                    "user_viewemail": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "vpass": {
+                        "type": "password", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "XOOPS_TOKEN_REQUEST": {
+                        "type": "hidden", 
+                        "value": "b1ca8edab1752b8f2441467993405542"
+                    }, 
+                    "agree_disc": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "email": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": "newuser"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "submitButton": {
+                        "type": "submit", 
+                        "value": "Submit"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "url": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "user_mailok": {
+                        "type": "radio", 
+                        "value": "0"
+                    }, 
+                    "user_viewemail": {
+                        "type": "checkbox", 
+                        "value": "1"
+                    }, 
+                    "vpass": {
+                        "type": "password", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "http://bm1.com/xoops/htdocs/user.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/user.php"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/register.php"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/user.php"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": ""
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/register.php"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/register.php"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": "login"
+                    }, 
+                    "pass": {
+                        "type": "password", 
+                        "value": ""
+                    }, 
+                    "rememberme": {
+                        "type": "checkbox", 
+                        "value": "On"
+                    }, 
+                    "uname": {
+                        "type": "text", 
+                        "value": ""
+                    }, 
+                    "xoops_redirect": {
+                        "type": "hidden", 
+                        "value": "/xoops/htdocs/"
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "https://app4.com/user.php": [
+        {
+            "params": {
+                "do": "changepassword", 
+                "pass1": "mypassword", 
+                "pass2": "mypassword"
+            }, 
+            "method": "POST"
+        }
+    ], 
+    "https://app4.com/admin/group.php": [
+        {
+            "params": {
+                "group_id": "1", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ], 
+    "https://app4.com/admin/site.php": [
+        {
+            "params": {
+                "site_id": "5", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ], 
+    "https://app4.com/admin/resolution.php": [
+        {
+            "params": {
+                "resolution_id": "1", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ], 
+    "https://app4.com/admin/severity.php": [
+        {
+            "params": {
+                "severity_id": "1", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ], 
+    "https://app4.com/admin/status.php": [
+        {
+            "params": {
+                "status_id": "1", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ], 
+    "https://app4.com/admin/database.php": [
+        {
+            "params": {
+                "database_id": "1", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ], 
+    "https://app4.com/admin/os.php": [
+        {
+            "params": {
+                "os_id": "1", 
+                "op": "del"
+            }, 
+            "method": "GET"
+        }
+    ]
+}

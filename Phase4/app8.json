@@ -1,0 +1,20 @@
+{
+    "https://app8.com/upload/index.php?route=account/password": [
+        {
+            "params": {
+                "password": "mypassword", 
+                "confirm": "mypassword"
+            }, 
+            "method": "POST"
+        }
+    ], 
+    "https://app8.com/upload/index.php?route=common/home": [
+        {
+            "params": {
+                "redirect": "https://app8.com/upload/index.php?route=product/product&path=34&product_id=32", 
+                "currency_code": "USD"
+            }, 
+            "method": "POST"
+        }
+    ]
+}
