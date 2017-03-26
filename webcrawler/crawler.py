@@ -324,8 +324,8 @@ def start_crawl():
     except OSError:
         pass
 
-    phase1()
-    phase2()
+    # phase1()
+    # phase2()
     phase3()
     #phase4()
 

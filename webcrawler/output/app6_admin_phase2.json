@@ -1,0 +1,38 @@
+{
+    "https://app6.com/zimplit.php": [
+        {
+            "params": {
+                "GET": {
+                    "action": {
+                        "type": "text", 
+                        "value": [
+                            "changeuserpass"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "content": {
+                        "type": "hidden", 
+                        "value": [
+                            "admin@admin.com"
+                        ]
+                    }, 
+                    "password": {
+                        "type": "password", 
+                        "value": [
+                            "admin", 
+                            "mypassword"
+                        ]
+                    }, 
+                    "username": {
+                        "type": "hidden", 
+                        "value": [
+                            "admin"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ]
+}
