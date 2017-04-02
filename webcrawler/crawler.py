@@ -3,8 +3,6 @@ import os
 import time
 import json
 import copy
-import itertools as it
-import random
 
 from twisted.internet import reactor, defer
 from scrapy.crawler import CrawlerRunner
@@ -19,7 +17,7 @@ from webcrawler.spiders.spider import StackSpider
 from webcrawler.settings import process_link_value
 
 from urls import URLs
-
+from phase3 import phase3
 
 ## logging
 def log_phase(num, desc):
@@ -177,148 +175,6 @@ def phase2():
         with open("output/"+name + '_phase2.json', 'w') as fp:
             json.dump(output_data, fp, sort_keys=True, indent=4)
 
-def _phase3_confirm_exploit(url, method, param_value_dict):
-    exploitable_values = ["del"]
-    exploitable_keys = ["pass1", "pass2", "password", "currency", "currency_code"]
-
-    if param_value_dict:
-        if any(value in param_value_dict.values() for value in exploitable_values):
-            return 1
-        if any(key in param_value_dict for key in exploitable_keys):
-            return 1
-    return 0
-
-def _phase3_output_exploit(url, data_array, o_json_path):
-    json_data = {}
-    # if the output file exists, read the content of this json file
-    if os.path.isfile(o_json_path):
-        with open(o_json_path, "r") as json_file:
-            if os.stat(o_json_path).st_size > 0:
-                json_data = json.load(json_file)
-    
-    if url in json_data:
-        # if url already exists, append the method and parameters
-        json_data[url].append(data_array)
-    else:
-        # if ulr doesn't exist, append the url, method and parameters
-        json_data[str(url)] = [data_array]
-    
-    # create json file
-    with open(o_json_path, "w") as outfile:
-        json.dump(json_data, outfile, indent=4)
-
-def _phase3_run(json_data, o_json_path):
-
-    _exclude_keys = ["token"]
-    _form_num_limit = 100
-    _values_num_limit = 100  # set to 2 for app9_admin
-    
-    urls = json_data.keys()
-    for url in urls:
-        # url: https://app4.com/user.php
-        # if url in _exclude_URLS:
-            # continue
-        forms = json_data[url]
-        print "Form Info: "+form
-
-        rand_forms = []
-        if (len(forms) > _form_num_limit):
-            print "  " + str(len(forms)) + " forms:" + url
-            rand_forms = random.sample(forms, _form_num_limit)
-        else:
-            rand_forms = forms
-
-        for form in rand_forms:
-            # find all combinations for POST
-            
-            post_param_names = sorted(form["params"]["POST"])
-            rand_post_pairs = {}
-            for post_param_name in post_param_names:
-                values = form["params"]["POST"][post_param_name]["value"]
-                print "Values for forms: "+values
-                if len(values) > _values_num_limit:
-                    print "  length " + str(len(values)) + " : " + post_param_name
-                    rand_values = random.sample(values, _values_num_limit)
-                    rand_post_pairs[post_param_name] = rand_values
-                else:
-                    rand_post_pairs[post_param_name] = values
-            post_combinations = [dict(zip(post_param_names, prod)) for prod in it.product(*(rand_post_pairs[param_name] for param_name in post_param_names))]
-            
-            # find all combinations for GET
-            get_param_names = sorted(form["params"]["GET"])
-            rand_get_pairs = {}
-            for get_param_name in get_param_names:
-                values = form["params"]["GET"][get_param_name]["value"]
-                if len(values) > _values_num_limit:
-                    print "  length " + str(len(values)) + " : " + get_param_name
-                    rand_get_pairs[get_param_name] = random.sample(values, _values_num_limit)
-                else:
-                    rand_get_pairs[get_param_name] = values
-            get_combinations = [dict(zip(get_param_names, prod)) for prod in it.product(*(rand_get_pairs[param_name] for param_name in get_param_names))]
-
-            print "Get Combination: "+get_combinations
-            print "Post Combination: "+post_combinations
-            print "Get Comb: "+get_comb
-            print "Post Comb"+post_comb
-
-            for get_comb in get_combinations:
-                for post_comb in post_combinations:
-                    if any(key in get_comb for key in _exclude_keys):
-                        continue
-                    if any(key in post_comb for key in _exclude_keys):
-                        continue
-
-                    arr = []
-                    # if post_comb is empty
-                    if not post_comb:
-                        if not get_comb:
-                            continue
-                        else:
-                            # if post_comb is empty and get_comb is not empty, check for exploit
-                            if _phase3_confirm_exploit(url, "GET", get_comb):
-                                arr.append({"params": get_comb, "method": "GET"})
-                                _phase3_output_exploit(url, arr, o_json_path)
-                    # else, if post_comb is not empty
-                    else:
-                        # if get_comb is empty
-                        if not get_comb:
-                            if _phase3_confirm_exploit(url, "POST", post_comb):
-                                arr.append({"params": post_comb, "method": "POST"})
-                                _phase3_output_exploit(url, arr, o_json_path)
-                        else:
-                            # if both post_comb and get_comb are not empty, check for exploit
-                            if _phase3_confirm_exploit(url, "POST", post_comb) or _phase3_confirm_exploit(url, "GET", get_comb):
-                                arr.append({"params": post_comb, "method": "POST"})
-                                arr.append({"params": get_comb, "method": "GET"})
-                                _phase3_output_exploit(url, arr, o_json_path)
-
-def phase3():
-    log_phase(3, "Identifying exploitable injection points.")
-
-    urlsItems = copy.deepcopy(URLs).items()
-    for url, data in urlsItems:
-        name = data["name"]
-        # name = "app4_admin"
-        phase2_data = "output/"+name + "_phase2.json"
-
-        # read phase 2 json
-        if os.path.isfile(phase2_data):
-            phase_data = {}
-            with open(phase2_data) as json_data:
-                phase_data = json.load(json_data)
-            
-            # delete phase 3 json if exists
-            phase3_json_file = "output/"+name + '_phase3.json'
-            if os.path.isfile(phase3_json_file):
-                os.remove(phase3_json_file)
-            
-            print "generating " + name + "_phase.json..."
-            # collate phase data
-            _phase3_run(phase_data, phase3_json_file)
-
-def phase4():
-    log_phase(4, "Generating exploit scripts.")
-
 
 ## Crawler
 def start_crawl():
@@ -334,7 +190,7 @@ def start_crawl():
 
     # phase1()
     # phase2()
-    phase3()
+    phase3("outputpath/")
     #phase4()
 
 
