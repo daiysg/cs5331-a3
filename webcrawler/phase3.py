@@ -37,7 +37,7 @@ def phase3(outputpath):
             if os.path.isfile(phase3_json_file):
                 os.remove(phase3_json_file)
             else:
-                open(phase3_json_file, "a")
+                open(phase3_json_file, "w")
 
             print "Phase 3: generating " + name + "_phase.json."
             # collate phase data
@@ -144,4 +144,4 @@ def generate_exploit(url, data_array, path):
 
 
 if __name__ == "__main__":
-    phase3("output1/")
+    phase3("output/")
