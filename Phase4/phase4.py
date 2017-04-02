@@ -141,10 +141,6 @@ def vefiry(login_url_tests, sh_file):
         else:
             print 'FAILED'
 
-    for testname in login_url_tests:
-        sh_file.write('python ' + testname + '\n')
-        sh_file.write('sleep 2\n')
-
 
 
 
