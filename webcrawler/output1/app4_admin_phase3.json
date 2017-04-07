@@ -1,0 +1,444 @@
+{
+    "https://app4.com/admin/os.php": [
+        [
+            {
+                "params": {
+                    "os_id": "1", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "os_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ], 
+    "https://app4.com/user.php": [
+        [
+            {
+                "params": {
+                    "do": "changepassword", 
+                    "pass1": "mypassword", 
+                    "pass2": "mypassword"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app4.com/admin/group.php": [
+        [
+            {
+                "params": {
+                    "group_id": "1", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "3", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "2", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "5", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "4", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "7", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "6", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "9", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "group_id": "8", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ], 
+    "https://app4.com/admin/site.php": [
+        [
+            {
+                "params": {
+                    "site_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "site_id": "5", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ], 
+    "https://app4.com/admin/status.php": [
+        [
+            {
+                "params": {
+                    "op": "del", 
+                    "status_id": "1"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "status_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "op": "del", 
+                    "status_id": "3"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "status_id": "2", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "op": "del", 
+                    "status_id": "5"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "status_id": "4", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "op": "del", 
+                    "status_id": "7"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "status_id": "6", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ], 
+    "https://app4.com/admin/severity.php": [
+        [
+            {
+                "params": {
+                    "severity_id": "1", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "severity_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "severity_id": "3", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "severity_id": "2", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "severity_id": "5", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "severity_id": "4", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "severity_id": "7", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "severity_id": "6", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ], 
+    "https://app4.com/admin/resolution.php": [
+        [
+            {
+                "params": {
+                    "resolution_id": "1", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "resolution_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "resolution_id": "3", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "resolution_id": "2", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "resolution_id": "5", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "resolution_id": "4", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "resolution_id": "6", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ], 
+    "https://app4.com/admin/database.php": [
+        [
+            {
+                "params": {
+                    "database_id": "1", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "database_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "database_id": "2", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ], 
+    "https://app4.com/admin/priority.php": [
+        [
+            {
+                "params": {
+                    "priority_id": "1", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "priority_id": "0", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "priority_id": "3", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "priority_id": "2", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "priority_id": "5", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "priority_id": "4", 
+                    "op": "del"
+                }, 
+                "method": "GET"
+            }
+        ]
+    ]
+}

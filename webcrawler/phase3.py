@@ -10,7 +10,7 @@ from urls import URLs
 
 # exploiitable key/value
 exploitable_values = ["del"]
-exploitable_keys = ["pass1", "pass2", "password", "currency", "currency_code"]
+exploitable_keys = ["pass1", "pass", "pass2", "password", "currency", "currency_code"]
 
 
 
@@ -84,22 +84,46 @@ def execudephase3(json_data, path):
             get_combinations = [dict(zip(get_param_names, prod)) for prod in
                                 itertools.product(*(get_pairs[param_name] for param_name in get_param_names))]
 
-            arr = []
+            original_url = url
             print "Generate result for phase3"
             for get_comb in get_combinations:
-                if any(key in get_comb for key in ["tokens"]):
-                    continue
-                    # check for GET exploit
-                if check_exploit(get_comb):
-                    arr.append({"params": get_comb, "method": "GET"})
+                for post_comb in post_combinations:
+                    if any(key in get_comb for key in ["tokens"]):
+                        continue
+                    if any(key in post_comb for key in ["tokens"]):
+                        continue
+
+                    arr = []
+
+                    # POST is empty
+                    if not post_comb:
+                        if not get_comb:
+                            continue
+                        else:
+                            # check for GET exploit
+                            new_url = append_get(original_url, get_comb)
+                            generate_exploit(new_url, arr, path)
+                    # POST not emtpy
+                    else:
+                        # if GET is empty
+                        if not get_comb:
+                            arr.append({"params": post_comb, "method": "POST"})
+                            generate_exploit(url, arr, path)
+                        else:
+                            if check_exploit(post_comb) or check_exploit(get_comb):
+                                new_url = append_get(original_url, get_comb)
+                                arr.append({"params": post_comb, "method": "POST"})
+                                generate_exploit(new_url, arr, path)
 
 
-            for post_comb in post_combinations:
-                if check_exploit(post_comb):
-                    arr.append({"params": post_comb, "method": "POST"})
+def append_get(url, value_comb):
+    strquery = []
+    sort = iter(sorted(value_comb.iteritems()))
+    for k, v in sort:
+        strquery.append(k + '=' + v)
 
-
-            generate_exploit(url, arr, path)
+    exploit_url = url + '?' + '&'.join(strquery)
+    return exploit_url
 
 
 def check_exploit(value_comb):
