@@ -18,7 +18,6 @@ sh_file_name = 'runall.sh'
 # python phase4.py -o outfile-name -j json-file
 
 def phase4(argv):
-    
     parser = argparse.ArgumentParser()
     parser.add_argument('-j','--json', help='JSON file name',required=True)
     parser.add_argument('-o','--output',help='Output file name', required=True)
@@ -53,13 +52,17 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
     login_url_tests = []
     for url in json_data.keys():
         new_entry = 0
-
         print "Current URL is " + url
         for data in json_data[url]:
-
+            itr = {}
+            if isinstance(data, dict):
+                itr = data
+            else:
+                itr = data[0]
             is_change_password = False
-            methods = data['method']
-            params = data['params']
+
+            methods = itr['method']
+            params = itr['params']
             if len(data) > 1:
                 try:
                     nextparam = data[1]
@@ -118,7 +121,8 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
             orderd[None].append((filename, exploit_url, methods, params,))
 
     login_url_tests = reduce(lambda x, y: x + y, orderd.values(), [])
-    vefiry(login_url_tests, sh_file)
+    # print "final Explict" + login_url_tests
+    # vefiry(login_url_tests, sh_file)
     sh_file.close()
 
 
@@ -140,8 +144,6 @@ def vefiry(login_url_tests, sh_file):
             phase4_json_output(exploit_url, methods, params)
         else:
             print 'FAILED'
-
-
 
 
 def phase4_json_output(url, method, params):
@@ -208,12 +210,7 @@ def py_post_method(py_file, injection_url, json_data, index):
 
 
 def py_get_method(py_file, injection_url, json_data):
-    strquery = []
-    sort = iter(sorted(json_data.iteritems()))
-    for k, v in sort:
-        strquery.append(k + '=' + v)
-
-    exploit_url = injection_url + '?' + '&'.join(strquery)
+    exploit_url = injection_url
 
     py_file.write('# execute and verify\n')
     py_file.write('base_url = \'' + injection_url + '\'\n')
@@ -274,18 +271,18 @@ def generate_python_script(filename, url, method, json_data, login_url, data, lo
 
     py_file = open(filename, 'w')
 
-    driver_name = '/usr/chromedriver'
+    # driver_name = '/usr/chromedriver'
     py_file.write('import os\n')
     py_file.write('from phase4lib import check_login, update_results\n')
     py_file.write('from selenium import webdriver\n\n')
-    py_file.write('browser = webdriver.Chrome(\"' + driver_name + '\")\n')
+    py_file.write('browser = webdriver.Firefox("")\n')
     login_form(py_file, login_url, login_name, login_name_val, login_pwd_name, login_pwd_val, login_xpath)
 
     # for post Method
     if (method == 'POST'):
         py_post_method(py_file, url, json_data, index)
         py_file.write('\n## Verification phase\n')
-        py_file.write('browser = webdriver.Chrome(\"' + driver_name + '\")\n')
+        py_file.write('browser = webdriver.Firefox("")\n')
         if is_change_password:
             login_form(py_file, login_url, login_name, login_name_val, login_pwd_name, login_pwd_val, login_xpath)
             verify_login_phase(py_file)
@@ -304,6 +301,9 @@ def generate_python_script(filename, url, method, json_data, login_url, data, lo
 def get_login_info(url, items):
     is_user_url = False
     is_admin_url = False
+    login_page = ''
+    formdata = ''
+    xpath = ''
 
     if url.find('user') >= 0:
         is_user_url = True
@@ -316,14 +316,17 @@ def get_login_info(url, items):
     for data in items:
         base_url = urlparse.urlparse(data[0]).netloc
 
-        if url.find(base_url) < 0:
-            print "No Base URL!! \n"
-            continue
+        is_user_url = False
+        adminURL = False
 
-        # workaround....
-        elif url.find('app4') >= 0:
-            is_user_url = False
-            adminURL = False
+        # if url.find(base_url) < 0:
+        #     print "No Base URL!! \n"
+        #     continue
+        #
+        # # workaround....
+        # elif url.find('app4') >= 0:
+        #     is_user_url = False
+        #     adminURL = False
 
         try:
             name = data[1]["name"]

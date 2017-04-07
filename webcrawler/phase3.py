@@ -42,6 +42,9 @@ def phase3(outputpath):
             print "Phase 3: generating " + name + "_phase.json."
             # collate phase data
             execudephase3(original_data, phase3_json_file)
+            print "Phase 3 Finish: generating " + name + "_phase.json."
+
+    print "##  Phase 3 Finished. ##"
 
 
 def execudephase3(json_data, path):
@@ -81,37 +84,22 @@ def execudephase3(json_data, path):
             get_combinations = [dict(zip(get_param_names, prod)) for prod in
                                 itertools.product(*(get_pairs[param_name] for param_name in get_param_names))]
 
+            arr = []
             print "Generate result for phase3"
             for get_comb in get_combinations:
-                for post_comb in post_combinations:
-                    if any(key in get_comb for key in ["tokens"]):
-                        continue
-                    if any(key in post_comb for key in ["tokens"]):
-                        continue
+                if any(key in get_comb for key in ["tokens"]):
+                    continue
+                    # check for GET exploit
+                if check_exploit(get_comb):
+                    arr.append({"params": get_comb, "method": "GET"})
 
-                    arr = []
 
-                    # POST is empty
-                    if not post_comb:
-                        if not get_comb:
-                            continue
-                        else:
-                            # check for GET exploit
-                            if check_exploit(get_comb):
-                                arr.append({"params": get_comb, "method": "GET"})
-                                generate_exploit(url, arr, path)
-                    # POST not emtpy
-                    else:
-                        # if GET is empty
-                        if not get_comb:
-                            if check_exploit(post_comb):
-                                arr.append({"params": post_comb, "method": "POST"})
-                                generate_exploit(url, arr, path)
-                        else:
-                            if check_exploit(post_comb) or check_exploit(get_comb):
-                                arr.append({"params": post_comb, "method": "POST"})
-                                arr.append({"params": get_comb, "method": "GET"})
-                                generate_exploit(url, arr, path)
+            for post_comb in post_combinations:
+                if check_exploit(post_comb):
+                    arr.append({"params": post_comb, "method": "POST"})
+
+
+            generate_exploit(url, arr, path)
 
 
 def check_exploit(value_comb):

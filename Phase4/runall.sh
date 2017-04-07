@@ -1,3 +1,3 @@
 #!/bin/sh
 
-## runs all the test case to produce output.log
+## Shell File to run all the test case to generate output.log
