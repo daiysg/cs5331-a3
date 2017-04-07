@@ -307,10 +307,8 @@ def get_login_info(url, items):
 
     if url.find('user') >= 0:
         is_user_url = True
-        print 'User URL'
     elif url.find('admin') >= 0:
         is_admin_url = True
-        print 'Admin URL'
 
     print 'json url: ' + url
     for data in items:
@@ -319,24 +317,21 @@ def get_login_info(url, items):
         is_user_url = False
         adminURL = False
 
-        # if url.find(base_url) < 0:
-        #     print "No Base URL!! \n"
-        #     continue
-        #
-        # # workaround....
-        # elif url.find('app4') >= 0:
-        #     is_user_url = False
-        #     adminURL = False
+        if url.find(base_url) < 0:
+            continue
+
+        # workaround....
+        elif url.find('app4') >= 0:
+            is_user_url = False
+            adminURL = False
 
         try:
             name = data[1]["name"]
             if is_user_url:
                 if name.find('user') < 0:
-                    print "No User URL!!"
                     continue
             if is_admin_url:
                 if name.find('admin') < 0:
-                    print "No Admin URL!!"
                     continue
         except KeyError:
             pass
@@ -360,6 +355,10 @@ def get_login_info(url, items):
 
         if login_page:
             break
+
+
+    if not login_page:
+        print "No Base URL!! \n"
 
     return login_page, formdata, xpath
 
