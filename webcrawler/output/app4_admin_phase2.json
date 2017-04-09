@@ -1,0 +1,2621 @@
+{
+    "https://app4.com/admin/configure.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "ADMIN_EMAIL": {
+                        "type": "text", 
+                        "value": [
+                            "phpbt@app4.com"
+                        ]
+                    }, 
+                    "ATTACHMENT_MAX_SIZE": {
+                        "type": "text", 
+                        "value": [
+                            "2097152"
+                        ]
+                    }, 
+                    "ATTACHMENT_PATH": {
+                        "type": "text", 
+                        "value": [
+                            "attachments"
+                        ]
+                    }, 
+                    "CVS_WEB": {
+                        "type": "text", 
+                        "value": [
+                            "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/phpbt/phpbt/"
+                        ]
+                    }, 
+                    "DATE_FORMAT": {
+                        "type": "text", 
+                        "value": [
+                            "Y-m-d"
+                        ]
+                    }, 
+                    "DB_VERSION": {
+                        "type": "text", 
+                        "value": [
+                            "20"
+                        ]
+                    }, 
+                    "EMAIL_DISABLED": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "EMAIL_IS_LOGIN": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "ENCRYPT_PASS": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "FORCE_LOGIN": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "HIDE_EMAIL": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "INSTALL_URL": {
+                        "type": "text", 
+                        "value": [
+                            "https://app4.com/"
+                        ]
+                    }, 
+                    "JPGRAPH_PATH": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "MASK_EMAIL": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "MAX_USER_VOTES": {
+                        "type": "text", 
+                        "value": [
+                            "5"
+                        ]
+                    }, 
+                    "NEW_ACCOUNTS_DISABLED": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "NEW_ACCOUNTS_GROUP": {
+                        "type": "text", 
+                        "value": [
+                            "User"
+                        ]
+                    }, 
+                    "PROMOTE_VOTES": {
+                        "type": "text", 
+                        "value": [
+                            "5"
+                        ]
+                    }, 
+                    "RECALL_LOGIN": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "SEND_MIME_EMAIL": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "SHOW_PROJECT_SUMMARIES": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "STRICT_UPDATING": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "TIME_FORMAT": {
+                        "type": "text", 
+                        "value": [
+                            "g:i A"
+                        ]
+                    }, 
+                    "USE_JPGRAPH": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "USE_PRIORITY_COLOR": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "USE_PRIORITY_COLOR_LINE": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "USE_SEVERITY_COLOR": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "USE_SEVERITY_COLOR_LINE": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://app4.com/admin/database.php": [
+        {
+            "params": {
+                "GET": {
+                    "database_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "database_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }, 
+                    "database_name": {
+                        "type": "text", 
+                        "value": [
+                            "ffdsa", 
+                            "dfs"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/database-edit.html:53\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/database-edit.html(53): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 53, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/database.php(82): template->render('database-edit.h...', 'Edit Database', '')\n#4 /var/www/app4.com/public_html/admin/database.php(121): show_form('2')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/database-edit.html</b> on line <b>53</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/database-edit.html:53\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/database-edit.html(53): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 53, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/database.php(82): template->render('database-edit.h...', 'Edit Database', '')\n#4 /var/www/app4.com/public_html/admin/database.php(121): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/database-edit.html</b> on line <b>53</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/database-edit.html:53\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/database-edit.html(53): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 53, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/database.php(82): template->render('database-edit.h...', 'Edit Database', '')\n#4 /var/www/app4.com/public_html/admin/database.php(121): show_form('1')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/database-edit.html</b> on line <b>53</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "database_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "del"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "database_name", 
+                            "sort_order"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/admin/group.php": [
+        {
+            "params": {
+                "GET": {
+                    "group_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6", 
+                            "9", 
+                            "8"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "edit-role"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "group_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6", 
+                            "9", 
+                            "8"
+                        ]
+                    }, 
+                    "group_name": {
+                        "type": "text", 
+                        "value": [
+                            "Guest", 
+                            "Reporter", 
+                            "Admin", 
+                            "Assignee", 
+                            "Manager", 
+                            "User", 
+                            "Owner", 
+                            "Developer"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save"
+                        ]
+                    }, 
+                    "perms[]": {
+                        "type": "checkbox", 
+                        "value": [
+                            "14"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(129): show_form('1')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(141): show_form('8')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(141): show_form('9')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(141): show_form('6')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(141): show_form('7')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(129): show_form('4')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(141): show_form('5')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(129): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(129): show_form('2')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/group-edit.html:60\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/group-edit.html(60): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 60, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/group.php(87): template->render('group-edit.html', 'Edit Group', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/group.php(129): show_form('3')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/group-edit.html</b> on line <b>60</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "list-roles"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "4", 
+                            "group_name"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "group_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6", 
+                            "9", 
+                            "8"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "edit-role", 
+                            "del", 
+                            "purge"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/admin/os.php": [
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "regex", 
+                            "os_name", 
+                            "sort_order"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "os_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save"
+                        ]
+                    }, 
+                    "os_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "os_name": {
+                        "type": "text", 
+                        "value": [
+                            "N/A"
+                        ]
+                    }, 
+                    "regex": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/os-edit.html:62\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/os-edit.html(62): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 62, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/os.php(81): template->render('os-edit.html', 'Edit Operating ...', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/os.php(121): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/os-edit.html</b> on line <b>62</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/os-edit.html:62\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/os-edit.html(62): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 62, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/os.php(81): template->render('os-edit.html', 'Edit Operating ...', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/os.php(121): show_form('1')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/os-edit.html</b> on line <b>62</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "del"
+                        ]
+                    }, 
+                    "os_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/admin/priority.php": [
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "priority_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "priority_color": {
+                        "type": "text", 
+                        "value": [
+                            "#ff9999", 
+                            "#dab0b0", 
+                            "#dadada", 
+                            "#dac0c0", 
+                            "#dad0d0"
+                        ]
+                    }, 
+                    "priority_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4"
+                        ]
+                    }, 
+                    "priority_name": {
+                        "type": "text", 
+                        "value": [
+                            "High", 
+                            "Medium Low", 
+                            "Medium", 
+                            "Medium High", 
+                            "Low"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/priority-edit.html:70\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/priority-edit.html(70): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 70, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/priority.php(81): template->render('priority-edit.h...', 'Edit Priority', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/priority.php(123): show_form('1')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/priority-edit.html</b> on line <b>70</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/priority-edit.html:70\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/priority-edit.html(70): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 70, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/priority.php(81): template->render('priority-edit.h...', 'Edit Priority', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/priority.php(123): show_form('2')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/priority-edit.html</b> on line <b>70</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/priority-edit.html:70\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/priority-edit.html(70): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 70, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/priority.php(81): template->render('priority-edit.h...', 'Edit Priority', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/priority.php(123): show_form('3')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/priority-edit.html</b> on line <b>70</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/priority-edit.html:70\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/priority-edit.html(70): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 70, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/priority.php(81): template->render('priority-edit.h...', 'Edit Priority', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/priority.php(123): show_form('4')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/priority-edit.html</b> on line <b>70</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/priority-edit.html:70\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/priority-edit.html(70): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 70, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/priority.php(81): template->render('priority-edit.h...', 'Edit Priority', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/priority.php(123): show_form('5')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/priority-edit.html</b> on line <b>70</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "priority_id": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "priority_name": {
+                        "type": "text", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined variable: priority_name' in /var/www/app4.com/public_html/templates/default/admin/priority-edit.html:35\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/priority-edit.html(35): exception_error_handler(8, 'Undefined varia...', '/var/www/app4.c...', 35, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/priority.php(81): template->render('priority-edit.h...', 'Edit Priority', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/priority.php(123): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/priority-edit.html</b> on line <b>35</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "sort_order", 
+                            "priority_desc", 
+                            "priority_name"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "del"
+                        ]
+                    }, 
+                    "priority_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/admin/project.php": [
+        {
+            "params": {
+                "GET": {
+                    "id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit_component", 
+                            "del_component", 
+                            "edit_version", 
+                            "del_version"
+                        ]
+                    }, 
+                    "project_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "active": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "component_name": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "component_sortorder": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "id": {
+                        "type": "hidden", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save_project"
+                        ]
+                    }, 
+                    "project_name": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "version_name": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "version_sortorder": {
+                        "type": "text", 
+                        "value": []
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit_version"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "active": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save_version"
+                        ]
+                    }, 
+                    "project_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": []
+                    }, 
+                    "version_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }, 
+                    "version_name": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "add"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "active", 
+                            "project_name", 
+                            "created_date"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "id": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit_component"
+                        ]
+                    }, 
+                    "project_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "active": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "component_id": {
+                        "type": "hidden", 
+                        "value": []
+                    }, 
+                    "component_name": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save_component"
+                        ]
+                    }, 
+                    "project_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": []
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit_component"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "active": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "component_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }, 
+                    "component_name": {
+                        "type": "text", 
+                        "value": [
+                            "2", 
+                            "test component"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save_component"
+                        ]
+                    }, 
+                    "project_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "2"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": []
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "id": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit_version"
+                        ]
+                    }, 
+                    "project_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "active": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save_version"
+                        ]
+                    }, 
+                    "project_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": []
+                    }, 
+                    "version_id": {
+                        "type": "hidden", 
+                        "value": []
+                    }, 
+                    "version_name": {
+                        "type": "text", 
+                        "value": []
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "edit_component", 
+                            "edit_version"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "active": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save_project"
+                        ]
+                    }, 
+                    "project_name": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "2", 
+                            "test project"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://app4.com/admin/resolution.php": [
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "del"
+                        ]
+                    }, 
+                    "resolution_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "resolution_desc", 
+                            "resolution_name", 
+                            "sort_order"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "resolution_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "resolution_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "6"
+                        ]
+                    }, 
+                    "resolution_name": {
+                        "type": "text", 
+                        "value": [
+                            "Deferred", 
+                            "Won't Fix", 
+                            "Works for me", 
+                            "Not a bug", 
+                            "Duplicate", 
+                            "Fixed"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "6"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html:69\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html(69): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 69, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/resolution.php(85): template->render('resolution-edit...', 'Edit Resolution', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/resolution.php(123): show_form('1')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/resolution-edit.html</b> on line <b>69</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html:69\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html(69): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 69, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/resolution.php(85): template->render('resolution-edit...', 'Edit Resolution', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/resolution.php(123): show_form('2')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/resolution-edit.html</b> on line <b>69</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html:69\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html(69): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 69, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/resolution.php(85): template->render('resolution-edit...', 'Edit Resolution', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/resolution.php(123): show_form('3')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/resolution-edit.html</b> on line <b>69</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html:69\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html(69): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 69, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/resolution.php(85): template->render('resolution-edit...', 'Edit Resolution', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/resolution.php(123): show_form('6')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/resolution-edit.html</b> on line <b>69</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html:69\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html(69): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 69, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/resolution.php(85): template->render('resolution-edit...', 'Edit Resolution', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/resolution.php(123): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/resolution-edit.html</b> on line <b>69</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html:69\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html(69): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 69, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/resolution.php(85): template->render('resolution-edit...', 'Edit Resolution', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/resolution.php(123): show_form('4')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/resolution-edit.html</b> on line <b>69</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html:69\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/resolution-edit.html(69): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 69, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/resolution.php(85): template->render('resolution-edit...', 'Edit Resolution', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/resolution.php(123): show_form('5')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/resolution-edit.html</b> on line <b>69</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://app4.com/admin/severity.php": [
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "severity_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "severity_color": {
+                        "type": "text", 
+                        "value": [
+                            "#ff9999", 
+                            "#dad0d0", 
+                            "#dadada", 
+                            "#dac0c0", 
+                            "#dab0b0", 
+                            "#dababa", 
+                            "#dacaca"
+                        ]
+                    }, 
+                    "severity_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }, 
+                    "severity_name": {
+                        "type": "text", 
+                        "value": [
+                            "Annoyance", 
+                            "Idea", 
+                            "Content", 
+                            "Feature Request", 
+                            "Critical", 
+                            "Significant", 
+                            "Unassigned"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('3')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('6')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('4')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('2')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('5')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('7')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/severity-edit.html:77\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/severity-edit.html(77): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 77, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/severity.php(84): template->render('severity-edit.h...', 'Edit Severity', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/severity.php(126): show_form('1')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/severity-edit.html</b> on line <b>77</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "del"
+                        ]
+                    }, 
+                    "severity_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "sort_order", 
+                            "severity_name", 
+                            "severity_desc"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/admin/site.php": [
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "del"
+                        ]
+                    }, 
+                    "site_id": {
+                        "type": "text", 
+                        "value": [
+                            "0", 
+                            "5"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "site_id": {
+                        "type": "text", 
+                        "value": [
+                            "0", 
+                            "5"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "Submit": {
+                        "type": "submit", 
+                        "value": []
+                    }, 
+                    "site_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "5"
+                        ]
+                    }, 
+                    "site_name": {
+                        "type": "text", 
+                        "value": [
+                            "hello"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/site-edit.html:52\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/site-edit.html(52): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 52, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/site.php(82): template->render('site-edit.html', 'Edit Site', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/site.php(121): show_form('5')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/site-edit.html</b> on line <b>52</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/site-edit.html:52\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/site-edit.html(52): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 52, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/site.php(82): template->render('site-edit.html', 'Edit Site', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/site.php(121): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/site-edit.html</b> on line <b>52</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "sort_order", 
+                            "site_name"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/admin/status.php": [
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "del"
+                        ]
+                    }, 
+                    "status_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "sort_order", 
+                            "status_desc", 
+                            "status_name"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "status_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {
+                    "bug_open": {
+                        "type": "radio", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "sort_order": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }, 
+                    "status_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }, 
+                    "status_name": {
+                        "type": "text", 
+                        "value": [
+                            "Needs QA", 
+                            "Verified", 
+                            "Reopened", 
+                            "Reviewed", 
+                            "Assigned", 
+                            "Closed", 
+                            "New Report"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": [
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('5')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('1')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('4')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('2')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('7')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('3')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('0')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />", 
+                            "<br />\n<b>Fatal error</b>:  Uncaught exception 'ErrorException' with message 'Undefined index: use_js' in /var/www/app4.com/public_html/templates/default/admin/status-edit.html:75\nStack trace:\n#0 /var/www/app4.com/public_html/templates/default/admin/status-edit.html(75): exception_error_handler(8, 'Undefined index...', '/var/www/app4.c...', 75, Array)\n#1 /var/www/app4.com/public_html/templates/default/admin/wrap.php(57): include('/var/www/app4.c...')\n#2 /var/www/app4.com/public_html/include.php(257): require('/var/www/app4.c...')\n#3 /var/www/app4.com/public_html/admin/status.php(85): template->render('status-edit.htm...', 'Edit Status', 'wrap.php')\n#4 /var/www/app4.com/public_html/admin/status.php(125): show_form('6')\n#5 {main}\n  thrown in <b>/var/www/app4.com/public_html/templates/default/admin/status-edit.html</b> on line <b>75</b><br />"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://app4.com/admin/user.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "active": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "email": {
+                        "type": "text", 
+                        "value": [
+                            "user@user.com", 
+                            "admin@admin.com", 
+                            "manager@manager.com", 
+                            "dev@dev.com"
+                        ]
+                    }, 
+                    "fe_notice": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "filter": {
+                        "type": "hidden", 
+                        "value": []
+                    }, 
+                    "first_name": {
+                        "type": "text", 
+                        "value": [
+                            "man", 
+                            "System", 
+                            "dev", 
+                            "user"
+                        ]
+                    }, 
+                    "last_name": {
+                        "type": "text", 
+                        "value": [
+                            "Admin", 
+                            "user", 
+                            "dev", 
+                            "man"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "save"
+                        ]
+                    }, 
+                    "password": {
+                        "type": "text", 
+                        "value": [
+                            "admin", 
+                            "rudrethech", 
+                            "manager", 
+                            "user", 
+                            "developer"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "use_js": {
+                        "type": "hidden", 
+                        "value": []
+                    }, 
+                    "user_id": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "4"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "groupfilter": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "active", 
+                            "login", 
+                            "last_name", 
+                            "created_date"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc", 
+                            "desc"
+                        ]
+                    }, 
+                    "userfilter": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "groupfilter": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit"
+                        ]
+                    }, 
+                    "user_id": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0", 
+                            "3", 
+                            "2", 
+                            "4"
+                        ]
+                    }, 
+                    "userfilter": {
+                        "type": "text", 
+                        "value": [
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/bug.php": [
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "add"
+                        ]
+                    }, 
+                    "project": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "add"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bugid": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "show"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "last_modified_date": {
+                        "type": "hidden", 
+                        "value": [
+                            "1461135670", 
+                            "1461135671"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "mass_update"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "at_description": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "attachment": {
+                        "type": "file", 
+                        "value": []
+                    }, 
+                    "bugid": {
+                        "type": "hidden", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "do"
+                        ]
+                    }, 
+                    "project": {
+                        "type": "hidden", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "submit": {
+                        "type": "submit", 
+                        "value": [
+                            "Submit"
+                        ]
+                    }, 
+                    "title": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "url": {
+                        "type": "text", 
+                        "value": []
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ], 
+    "https://app4.com/query.php": [
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "doquery"
+                        ]
+                    }, 
+                    "savedqueryname": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "savedqueryoverride": {
+                        "type": "hidden", 
+                        "value": [
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "edit", 
+                            "query"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "doquery"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "title", 
+                            "status_name", 
+                            "priority_name", 
+                            "bug_id", 
+                            "resolution_name", 
+                            "severity_name", 
+                            "owner", 
+                            "reporter"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "projects": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "doquery"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "priority_name"
+                        ]
+                    }, 
+                    "projects": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "desc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "mybugs"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }, 
+                    "reportedby": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "closed_end_date": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "closed_start_date": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "description": {
+                        "type": "", 
+                        "value": []
+                    }, 
+                    "email1": {
+                        "type": "", 
+                        "value": []
+                    }, 
+                    "emailfield1[]": {
+                        "type": "checkbox", 
+                        "value": [
+                            "reporter"
+                        ]
+                    }, 
+                    "end_date": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "form": {
+                        "type": "hidden", 
+                        "value": [
+                            "advanced"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "hidden", 
+                        "value": [
+                            "doquery"
+                        ]
+                    }, 
+                    "savedqueryname": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "savedqueryoverride": {
+                        "type": "hidden", 
+                        "value": [
+                            "0"
+                        ]
+                    }, 
+                    "start_date": {
+                        "type": "text", 
+                        "value": []
+                    }, 
+                    "title": {
+                        "type": "", 
+                        "value": []
+                    }, 
+                    "unassigned": {
+                        "type": "checkbox", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "url": {
+                        "type": "", 
+                        "value": []
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bookmarked": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "mybugs"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }, 
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "title", 
+                            "status_name", 
+                            "priority_name", 
+                            "bug_id", 
+                            "resolution_name", 
+                            "severity_name", 
+                            "owner", 
+                            "reporter"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "form": {
+                        "type": "text", 
+                        "value": [
+                            "advanced"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "query"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "mybugs"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }, 
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "title", 
+                            "status_name", 
+                            "priority_name", 
+                            "bug_id", 
+                            "resolution_name", 
+                            "severity_name", 
+                            "owner", 
+                            "reporter"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "reportedby": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "doquery"
+                        ]
+                    }, 
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "title", 
+                            "status_name", 
+                            "priority_name", 
+                            "bug_id", 
+                            "resolution_name", 
+                            "severity_name", 
+                            "owner", 
+                            "reporter"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc"
+                        ]
+                    }, 
+                    "status[]": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "bookmarked": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "mybugs"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "assignedto": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "mybugs"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }, 
+                    "order": {
+                        "type": "text", 
+                        "value": [
+                            "title", 
+                            "status_name", 
+                            "priority_name", 
+                            "bug_id", 
+                            "resolution_name", 
+                            "severity_name", 
+                            "owner", 
+                            "reporter"
+                        ]
+                    }, 
+                    "page": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "sort": {
+                        "type": "text", 
+                        "value": [
+                            "asc"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "assignedto": {
+                        "type": "text", 
+                        "value": [
+                            "1"
+                        ]
+                    }, 
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "mybugs"
+                        ]
+                    }, 
+                    "open": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "0"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }, 
+        {
+            "params": {
+                "GET": {
+                    "op": {
+                        "type": "text", 
+                        "value": [
+                            "doquery"
+                        ]
+                    }, 
+                    "status[]": {
+                        "type": "text", 
+                        "value": [
+                            "1", 
+                            "3", 
+                            "2", 
+                            "5", 
+                            "4", 
+                            "7", 
+                            "6"
+                        ]
+                    }
+                }, 
+                "POST": {}
+            }, 
+            "type": "GET"
+        }
+    ], 
+    "https://app4.com/user.php": [
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "def_results": {
+                        "type": "text", 
+                        "value": [
+                            "20"
+                        ]
+                    }, 
+                    "do": {
+                        "type": "hidden", 
+                        "value": [
+                            "changeprefs"
+                        ]
+                    }, 
+                    "preferences[]": {
+                        "type": "checkbox", 
+                        "value": [
+                            "saved_queries"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "do": {
+                        "type": "hidden", 
+                        "value": [
+                            "changepassword"
+                        ]
+                    }, 
+                    "pass1": {
+                        "type": "password", 
+                        "value": [
+                            "mypassword"
+                        ]
+                    }, 
+                    "pass2": {
+                        "type": "password", 
+                        "value": [
+                            "mypassword"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }, 
+        {
+            "params": {
+                "GET": {}, 
+                "POST": {
+                    "column_list[]": {
+                        "type": "checkbox", 
+                        "value": [
+                            "votes"
+                        ]
+                    }, 
+                    "do": {
+                        "type": "hidden", 
+                        "value": [
+                            "changecolumnlist"
+                        ]
+                    }
+                }
+            }, 
+            "type": "POST"
+        }
+    ]
+}

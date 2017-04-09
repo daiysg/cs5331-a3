@@ -1,0 +1,152 @@
+{
+    "https://app4.com/admin/resolution.php?op=del&resolution_id=4": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=4&op=del": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=1&op=del": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=0&op=del": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=9&op=del": [
+        []
+    ],
+    "https://app4.com/admin/resolution.php?op=del&resolution_id=1": [
+        []
+    ],
+    "https://app4.com/admin/database.php?database_id=1&op=del": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=2&op=del": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=7&op=del": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=6": [
+        []
+    ],
+    "https://app4.com/user.php": [
+        [
+            {
+                "params": {
+                    "do": "changepassword",
+                    "pass1": "mypassword",
+                    "pass2": "mypassword"
+                },
+                "method": "POST"
+            }
+        ]
+    ],
+    "https://app4.com/admin/priority.php?op=del&priority_id=2": [
+        []
+    ],
+    "https://app4.com/admin/resolution.php?op=del&resolution_id=5": [
+        []
+    ],
+    "https://app4.com/admin/priority.php?op=del&priority_id=0": [
+        []
+    ],
+    "https://app4.com/admin/resolution.php?op=del&resolution_id=3": [
+        []
+    ],
+    "https://app4.com/admin/resolution.php?op=del&resolution_id=2": [
+        []
+    ],
+    "https://app4.com/admin/priority.php?op=del&priority_id=5": [
+        []
+    ],
+    "https://app4.com/admin/resolution.php?op=del&resolution_id=0": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=5&op=del": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=0": [
+        []
+    ],
+    "https://app4.com/admin/priority.php?op=del&priority_id=4": [
+        []
+    ],
+    "https://app4.com/admin/site.php?op=del&site_id=0": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=7": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=6": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=5": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=4": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=3": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=2": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=1": [
+        []
+    ],
+    "https://app4.com/admin/severity.php?op=del&severity_id=0": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=6&op=del": [
+        []
+    ],
+    "https://app4.com/admin/priority.php?op=del&priority_id=1": [
+        []
+    ],
+    "https://app4.com/admin/os.php?op=del&os_id=1": [
+        []
+    ],
+    "https://app4.com/admin/os.php?op=del&os_id=0": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=3&op=del": [
+        []
+    ],
+    "https://app4.com/admin/group.php?group_id=8&op=del": [
+        []
+    ],
+    "https://app4.com/admin/site.php?op=del&site_id=5": [
+        []
+    ],
+    "https://app4.com/admin/database.php?database_id=0&op=del": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=7": [
+        []
+    ],
+    "https://app4.com/admin/priority.php?op=del&priority_id=3": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=5": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=4": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=3": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=2": [
+        []
+    ],
+    "https://app4.com/admin/status.php?op=del&status_id=1": [
+        []
+    ],
+    "https://app4.com/admin/resolution.php?op=del&resolution_id=6": [
+        []
+    ],
+    "https://app4.com/admin/database.php?database_id=2&op=del": [
+        []
+    ]
+}

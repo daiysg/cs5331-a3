@@ -12,6 +12,8 @@ import json
 
 html_file_name = 'formtemplate'
 sh_file_name = 'runall.sh'
+json_pass_file = "phase4.json"
+json_fail_file = "phase4_fail.json"
 
 # This will generate a html file and a python script
 # The python script will run selenium which will post the form html file to inject the CSRF exploit
@@ -22,7 +24,13 @@ def phase4(argv):
     parser.add_argument('-j','--json', help='JSON file name',required=True)
     parser.add_argument('-o','--output',help='Output file name', required=True)
     args = parser.parse_args()
-        
+
+    if os.path.isfile(json_pass_file):
+        os.remove(json_pass_file)
+
+    if os.path.isfile(json_fail_file):
+        os.remove(json_fail_file)
+
     json_file = args.json
     output_file = args.output
 
@@ -48,7 +56,9 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
     sh_file = open(sh_file_name, 'w')
     sh_file.write("#!/bin/sh\n")
     sh_file.write('\n## Shell File to run all the test case to generate output.log\n')
-
+    itr = {}
+    methods = {}
+    params = {}
     login_url_tests = []
     for url in json_data.keys():
         new_entry = 0
@@ -58,11 +68,17 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
             if isinstance(data, dict):
                 itr = data
             else:
-                itr = data[0]
+                if data:
+                   itr = data[0]
             is_change_password = False
+            methods = {}
+            if itr:
+                methods = itr['method']
+                params = itr['params']
+            else:
+                methods = {}
+                params = {}
 
-            methods = itr['method']
-            params = itr['params']
             if len(data) > 1:
                 try:
                     nextparam = data[1]
@@ -73,14 +89,15 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
             else:
                 action = None
 
-            if "mypassword" in str(list(params.iteritems())):
-                is_change_password = True
+            if params:
+                if "mypassword" in str(list(params.iteritems())):
+                  is_change_password = True
 
             py_filename = output_file + '_' + repr(index) + '.py'
             print "Python FileName:: " + py_filename
 
             if new_entry == 0:
-                login_url, form_data, login_xpath = get_login_info(url, items)
+                login_url, base_url, form_data, login_xpath = get_login_info(url, items)
 
             if action:
                 for k, v in action.iteritems():
@@ -98,36 +115,18 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
                 print "login xpath: " + login_xpath
 
             generate_python_script(py_filename, exploit_url, methods, params, login_url, form_data, login_xpath, index,
-                                     is_change_password)
+                                     is_change_password, base_url)
             login_url_tests.append((py_filename, exploit_url, methods, params))
             index += 1
             new_entry = 1
 
-    orderd = OrderedDict()
-    orderd[None] = []
-    orderd["group"] = []
-    orderd["mypassword"] = []
-
-    for filename, exploit_url, methods, params in login_url_tests:
-        added = False
-        for okey in orderd:
-            if okey is None:
-                continue
-            if okey in str(list(params.iteritems())) or okey in exploit_url:
-                orderd[okey].append((filename, exploit_url, methods, params,))
-                added = True
-                break
-        if not added:
-            orderd[None].append((filename, exploit_url, methods, params,))
-
-    login_url_tests = reduce(lambda x, y: x + y, orderd.values(), [])
-    # print "final Explict" + login_url_tests
-    # vefiry(login_url_tests, sh_file)
+    verify(login_url_tests, sh_file)
     sh_file.close()
 
 
-def vefiry(login_url_tests, sh_file):
+def verify(login_url_tests, sh_file):
     seen_params = set()
+    fail_params = set()
     for filename, exploit_url, methods, params in login_url_tests:
         current_params = set(params.keys())
         count = len(seen_params.intersection(current_params))
@@ -141,13 +140,17 @@ def vefiry(login_url_tests, sh_file):
         if "PASSED" in out:
             print 'PASSED'
             seen_params.update(current_params)
-            phase4_json_output(exploit_url, methods, params)
+            phase4_json_output(exploit_url, methods, params, json_pass_file)
         else:
             print 'FAILED'
+            fail_params.update(current_params)
+            phase4_json_output(exploit_url, methods, params, json_fail_file)
 
 
-def phase4_json_output(url, method, params):
-    json_file = "phase4.json"
+
+
+def phase4_json_output(url, method, params, json_file):
+
     json_data = {}
 
     if os.path.isfile(json_file):
@@ -170,6 +173,7 @@ def verify_form_change(py_file):
     py_file.write("outstr = \"\Exploit URL: \" + url + \" \"" + '\n')
     py_file.write('if before != after:\n')
     py_file.write('\tprint \'### PASSED ###\'\n')
+    py_file.write('\tprint \'##### THE page source is changed!!! #####\'\n')
     py_file.write('\tupdate_results(outstr + " PASSED\\n")\n')
     py_file.write('else:\n')
     py_file.write('\tprint \'### FAILED ###\'\n')
@@ -181,8 +185,9 @@ def verify_login_phase(py_file):
     py_file.write('body = browser.page_source\n')
     py_file.write("outstr = \"\Exploit URL: \" + url + \" \"" + '\n')
     py_file.write('result = check_login(body, cur_url, url)\n')
-    py_file.write('if result:\n')
+    py_file.write('if result  == False:\n')
     py_file.write('\tprint \'##### PASSED #####\'\n')
+    py_file.write('\tprint \'##### THE PASSWORD is changed, you cannot use the original password!! #####\'\n')
     py_file.write('\tupdate_results(outstr + " PASSED\\n")\n')
     py_file.write('else:\n')
     py_file.write('\tprint \'##### FAILED #####\'\n')
@@ -209,23 +214,24 @@ def py_post_method(py_file, injection_url, json_data, index):
     py_file.write('browser.quit()\n')
 
 
-def py_get_method(py_file, injection_url, json_data):
+def py_get_method(py_file, injection_url, json_data, base_url):
     exploit_url = injection_url
 
-    py_file.write('# execute and verify\n')
-    py_file.write('base_url = \'' + injection_url + '\'\n')
+    py_file.write('\n # execute and verify\n')
+    py_file.write('base_url = \'' + base_url + '\'\n')
     py_file.write('browser.get(base_url)\n')
     py_file.write('before = browser.page_source\n')
-    # inject CSRF
-    py_file.write('\nurl = \'' + exploit_url + '\'\n')
-    py_file.write('browser.get(url)\n')
+
+    #injection CRSF
+    py_file.write('\n # Injection and attack ####\n')
+    py_file.write('url = \'' + exploit_url + '\'\n')
+    py_file.write('\nbrowser.get(url)')
 
     # verify exploits
-    string = "outstr = \"Exploit URL: \" + url + \" \""
+    py_file.write('\n # Verify ####\n')
     py_file.write('\nbrowser.get(base_url)\n')
-    py_file.write('after = browser.page_source\n\n')
+    py_file.write('after = browser.page_source\n')
     py_file.write('out_str = "Exploit URL: " + url + " "\n')
-    py_file.write(string + '\n')
 
     py_file.write('if before != after:\n')
     py_file.write('\tprint \'##### PASSED #####\'\n')
@@ -250,10 +256,10 @@ def login_form(py_file, login_url, login_name, login_name_val, login_pwd_name, l
     else:
         py_file.write('browser.find_element_by_xpath("//input[@type=\'submit\']").submit()\n')
 
-    py_file.write('\n# start executing')
+    py_file.write('\n# start executing\n')
 
 
-def generate_python_script(filename, url, method, json_data, login_url, data, login_xpath, index, is_change_password):
+def generate_python_script(filename, url, method, json_data, login_url, data, login_xpath, index, is_change_password, base_url):
     key = []
     val = []
 
@@ -277,6 +283,16 @@ def generate_python_script(filename, url, method, json_data, login_url, data, lo
     py_file.write('from selenium import webdriver\n\n')
     py_file.write('browser = webdriver.Firefox("")\n')
     login_form(py_file, login_url, login_name, login_name_val, login_pwd_name, login_pwd_val, login_xpath)
+    py_file.write('\n# check login sucessful?\n')
+    py_file.write('\ncur_url = browser.current_url\n')
+    py_file.write('body = browser.page_source\n')
+    py_file.write("outstr = \"\Exploit URL: \" + url + \" \"" + '\n')
+    py_file.write('result = check_login(body, cur_url, url)\n')
+    py_file.write('if result  == False:\n')
+    py_file.write('\tprint \'##### FAILED #####\'\n')
+    py_file.write('\tprint \'##### YOU PUT WRONG USER NAME AND PASSWORD!! CANNOT LOGIN #####\'\n')
+    py_file.write('\tupdate_results(outstr + " FAILED\\n")\n')
+    py_file.write('\tbrowser.quit()\n')
 
     # for post Method
     if (method == 'POST'):
@@ -290,7 +306,7 @@ def generate_python_script(filename, url, method, json_data, login_url, data, lo
             verify_form_change(py_file)
         print 'For POST related CSRF exploits in url=%s' % url
     else:
-        py_get_method(py_file, url, json_data)
+        py_get_method(py_file, url, json_data, base_url)
         print "For GET related CSRF exploits in url=%s" % url
 
     py_file.write('browser.quit()\n')
@@ -304,6 +320,7 @@ def get_login_info(url, items):
     login_page = ''
     formdata = ''
     xpath = ''
+    base_url = ''
 
     if url.find('user') >= 0:
         is_user_url = True
@@ -311,7 +328,11 @@ def get_login_info(url, items):
         is_admin_url = True
 
     print 'json url: ' + url
+
+    cur_base_url = ""
     for data in items:
+        if data:
+            cur_base_url = data[0]
         base_url = urlparse.urlparse(data[0]).netloc
 
         is_user_url = False
@@ -346,8 +367,12 @@ def get_login_info(url, items):
             pass
 
         if need_selenium:
-            xpath = data[1]["formxpath"]
-            print "this xpath: " + xpath
+            try:
+                xpath = data[1]["formxpath"]
+                print "this xpath: " + xpath
+            except KeyError:
+                print 'No xpath page for ' + name
+                pass
         else:
             xpath = ''
 
@@ -360,7 +385,7 @@ def get_login_info(url, items):
     if not login_page:
         print "No Base URL!! \n"
 
-    return login_page, formdata, xpath
+    return login_page, cur_base_url, formdata, xpath
 
 if __name__ == "__main__":
    phase4(sys.argv[1:])

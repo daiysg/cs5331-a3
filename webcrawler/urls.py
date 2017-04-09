@@ -108,19 +108,19 @@ URLs["https://app6.com/"] = {"name":"app6_user",
 #     "formxpath":"//form[@id='loginform']",
 #      "formdata":{'user_login': 'admin', 'user_pass': 'admin'},}
 #
-# # regular
-# URLs["https://app8.com/upload"] = {"name":"app8_user",
-#                                    "need_selenium" : True,
-#                                    "login_page":"https://app8.com/upload/index.php?route=account/login",
-#                                    "formxpath":"//form[@id='login']",
-#                                    "formdata":{'email': 'test@test.com', 'password': 'test'},}
-#
-# # admin
-# URLs["https://app8.com/upload/admin"] = {"name":"app8_admin",
-#                                          "need_selenium" : True,
-#                                          "login_page":"https://app8.com/upload/admin/index.php",
-#                                          "formxpath":"//form[@id='form']",
-#                                          "formdata":{'username': 'admin', 'password': 'admin'},}
+# regular
+URLs["https://app8.com/upload"] = {"name":"app8_user",
+                                   "need_selenium" : True,
+                                   "login_page":"https://app8.com/upload/index.php?route=account/login",
+                                   "formxpath":"//form[@id='login']",
+                                   "formdata":{'email': 'test@test.com', 'password': 'test'},}
+
+# admin
+URLs["https://app8.com/upload/admin"] = {"name":"app8_admin",
+                                         "need_selenium" : True,
+                                         "login_page":"https://app8.com/upload/admin/index.php",
+                                         "formxpath":"//form[@id='form']",
+                                         "formdata":{'username': 'admin', 'password': 'admin'},}
 #
 # # admin
 # URLs["https://app9.com/index-test.php"] = {"name":"app9_admin",

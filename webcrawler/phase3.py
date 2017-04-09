@@ -101,14 +101,16 @@ def execudephase3(json_data, path):
                             continue
                         else:
                             # check for GET exploit
-                            new_url = append_get(original_url, get_comb)
-                            generate_exploit(new_url, arr, path)
-                    # POST not emtpy
+                            if check_exploit(get_comb):
+                                new_url = append_get(original_url, get_comb)
+                                generate_exploit(new_url, arr, path)
+                    # POST not empty
                     else:
                         # if GET is empty
                         if not get_comb:
-                            arr.append({"params": post_comb, "method": "POST"})
-                            generate_exploit(url, arr, path)
+                            if check_exploit(post_comb):
+                                arr.append({"params": post_comb, "method": "POST"})
+                                generate_exploit(url, arr, path)
                         else:
                             if check_exploit(post_comb) or check_exploit(get_comb):
                                 new_url = append_get(original_url, get_comb)

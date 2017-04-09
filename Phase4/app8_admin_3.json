@@ -1,0 +1,394 @@
+{
+    "https://app8.com/upload/admin/index.php?order=ASC&route=user/user/update&sort=status&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=1": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=ASC&route=user/user/update&sort=status&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=2": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=ASC&route=user/user/update&sort=date_added&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=2": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?route=user/user/update&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=1": [
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?route=user/user/update&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=2": [
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=ASC&route=user/user/update&sort=username&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=1": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=ASC&route=user/user/update&sort=username&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=2": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=DESC&route=user/user/update&sort=date_added&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=2": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=DESC&route=user/user/update&sort=username&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=2": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=ASC&route=user/user/update&sort=date_added&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=1": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=DESC&route=user/user/update&sort=username&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=1": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=DESC&route=user/user/update&sort=status&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=2": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=DESC&route=user/user/update&sort=status&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=1": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ], 
+    "https://app8.com/upload/admin/index.php?order=DESC&route=user/user/update&sort=date_added&token=c9f0f895fb98ab9159f51fd0297e236d&user_id=1": [
+        [
+            {
+                "params": {
+                    "username": "admin", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ], 
+        [
+            {
+                "params": {
+                    "username": "test", 
+                    "firstname": "test", 
+                    "confirm": "mypassword", 
+                    "lastname": "test", 
+                    "password": "mypassword", 
+                    "email": "test@test.com"
+                }, 
+                "method": "POST"
+            }
+        ]
+    ]
+}

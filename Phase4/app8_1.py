@@ -28,6 +28,7 @@ after = browser.page_source
 outstr = "\Exploit URL: " + url + " "
 if before != after:
 	print '### PASSED ###'
+	print '##### THE page source is changed!!! #####'
 	update_results(outstr + " PASSED\n")
 else:
 	print '### FAILED ###'

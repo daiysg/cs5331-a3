@@ -34,8 +34,9 @@ cur_url = browser.current_url
 body = browser.page_source
 outstr = "\Exploit URL: " + url + " "
 result = check_login(body, cur_url, url)
-if result:
+if result  == False:
 	print '##### PASSED #####'
+	print '##### THE PASSWORD is changed, you cannot use the original password!! #####'
 	update_results(outstr + " PASSED\n")
 else:
 	print '##### FAILED #####'
