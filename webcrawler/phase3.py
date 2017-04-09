@@ -4,20 +4,15 @@ import json
 import copy
 import itertools
 
-
 from urls import URLs
-
 
 # exploiitable key/value
 exploitable_values = ["del"]
 exploitable_keys = ["pass1", "pass", "pass2", "password", "currency", "currency_code"]
 
 
-
-
 def phase3(outputpath):
-
-    #log
+    # log
     print "########## PHASE 3 ##########"
     print "##  Generate all injection points. ##"
 
@@ -48,8 +43,6 @@ def phase3(outputpath):
 
 
 def execudephase3(json_data, path):
-
-
     urls = json_data.keys()
     for url in urls:
         forms = json_data[url]

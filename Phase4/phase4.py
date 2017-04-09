@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 from urls import URLs
-from collections import OrderedDict
 import os
 import argparse
 import copy
@@ -15,14 +14,15 @@ sh_file_name = 'runall.sh'
 json_pass_file = "phase4.json"
 json_fail_file = "phase4_fail.json"
 
+
 # This will generate a html file and a python script
 # The python script will run selenium which will post the form html file to inject the CSRF exploit
 # python phase4.py -o outfile-name -j json-file
 
 def phase4(argv):
     parser = argparse.ArgumentParser()
-    parser.add_argument('-j','--json', help='JSON file name',required=True)
-    parser.add_argument('-o','--output',help='Output file name', required=True)
+    parser.add_argument('-j', '--json', help='JSON file name', required=True)
+    parser.add_argument('-o', '--output', help='Output file name', required=True)
     args = parser.parse_args()
 
     if os.path.isfile(json_pass_file):
@@ -69,7 +69,7 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
                 itr = data
             else:
                 if data:
-                   itr = data[0]
+                    itr = data[0]
             is_change_password = False
             methods = {}
             if itr:
@@ -91,7 +91,7 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
 
             if params:
                 if "mypassword" in str(list(params.iteritems())):
-                  is_change_password = True
+                    is_change_password = True
 
             py_filename = output_file + '_' + repr(index) + '.py'
             print "Python FileName:: " + py_filename
@@ -115,7 +115,7 @@ def generate_shell_files(sh_file_name, json_data, output_file, index, items):
                 print "login xpath: " + login_xpath
 
             generate_python_script(py_filename, exploit_url, methods, params, login_url, form_data, login_xpath, index,
-                                     is_change_password, base_url)
+                                   is_change_password, base_url)
             login_url_tests.append((py_filename, exploit_url, methods, params))
             index += 1
             new_entry = 1
@@ -147,10 +147,7 @@ def verify(login_url_tests, sh_file):
             phase4_json_output(exploit_url, methods, params, json_fail_file)
 
 
-
-
 def phase4_json_output(url, method, params, json_file):
-
     json_data = {}
 
     if os.path.isfile(json_file):
@@ -222,7 +219,7 @@ def py_get_method(py_file, injection_url, json_data, base_url):
     py_file.write('browser.get(base_url)\n')
     py_file.write('before = browser.page_source\n')
 
-    #injection CRSF
+    # injection CRSF
     py_file.write('\n # Injection and attack ####\n')
     py_file.write('url = \'' + exploit_url + '\'\n')
     py_file.write('\nbrowser.get(url)')
@@ -259,7 +256,8 @@ def login_form(py_file, login_url, login_name, login_name_val, login_pwd_name, l
     py_file.write('\n# start executing\n')
 
 
-def generate_python_script(filename, url, method, json_data, login_url, data, login_xpath, index, is_change_password, base_url):
+def generate_python_script(filename, url, method, json_data, login_url, data, login_xpath, index, is_change_password,
+                           base_url):
     key = []
     val = []
 
@@ -381,11 +379,11 @@ def get_login_info(url, items):
         if login_page:
             break
 
-
     if not login_page:
         print "No Base URL!! \n"
 
     return login_page, cur_base_url, formdata, xpath
 
+
 if __name__ == "__main__":
-   phase4(sys.argv[1:])
+    phase4(sys.argv[1:])
